@@ -1,4 +1,5 @@
 import csv
+import sys
 from src.Constants import *
 
 class CardDescriptionParser:
@@ -42,17 +43,27 @@ class CardDescriptionParser:
 
                 cardName = card[cardNameIndex]
                 if(cardName == ""): continue
-                self.cards[cardName] = {
-                    CARD_NAME: cardName,
-                    CATEGORY: category,
-                    SUBCATEGORY: subcategory,
-                    ENERGY_COST: card[energyCostIndex],
-                    POWER: card[powerIndex],
-                    ABILITY: card[abilityIndex],
-                }
+                try:
+                    self.cards[cardName] = {
+                        CARD_NAME: cardName,
+                        CATEGORY: category,
+                        SUBCATEGORY: subcategory,
+                        ENERGY_COST: int(card[energyCostIndex]),
+                        POWER: int(card[powerIndex]),
+                        ABILITY: card[abilityIndex],
+                        ABILITY_TYPE: AbilityType.Nil,
+                        ACTIVATION: Activation.Nil,
+                        CONDITION: Condition.Nil,
+                        YOUR_BONUS: 0,
+                        THEIR_BONUS: 0,
+                        COMBO_TYPE: ComboType.Nil,
+                        COMBO_VALUE: None,
+                    }
+                except ValueError:
+                    print(cardName, "failed to parse Energy cost and Power", file=sys.stderr)
+                    continue
                 self.calculateRarity(cardName, card[rarityIndex], card[typeIndex])
                 self.parseAbility(self.cards[cardName])
-                
         return
 
     def calculateRarity(self, cardName, rarity, cardType):
@@ -60,14 +71,14 @@ class CardDescriptionParser:
         if(rarity in Rarities):
             rarityValue = Rarities[rarity]
         else:
-            print(cardName, "'s Rarity was unrecognized. Rarity: ", rarity)
+            print(cardName, "'s Rarity was unrecognized. Rarity: ", rarity, file=sys.stderr)
             self.cards[cardName][RARITY] = 0
             return
         
         if(cardType in RarityModifiers):
             rarityValue *= RarityModifiers[cardType]
         else:
-            print(cardName, "'s Type was unrecognized. Type: ", cardType)
+            print(cardName, "'s Type was unrecognized. Type: ", cardType, file=sys.stderr)
 
         self.cards[cardName][RARITY] = rarityValue
         return
@@ -76,16 +87,12 @@ class CardDescriptionParser:
     def parseAbility(self, card):
         ability = card[ABILITY]
         if(ability==""):
-            card[ABILITY_TYPE] = AbilityType.Nil
-            card[ACTIVATION] = Activation.Nil
-            card[CONDITION] = Condition.Nil
-            card[AWARD_TYPE] = AwardType.Nil
             return
 
         # Trim ability to just be the words after the colon, and make all lower case for simplified parsing
         searchIndex = ability.find(" - ")
         if(searchIndex != -1): ability = ability[searchIndex+3:]
-        else: print(card[CARD_NAME], " failed to remove ability name (NonFatal)")
+        else: print(card[CARD_NAME], " failed to remove ability name (NonFatal)", file=sys.stderr)
         ability = ability.lower()
         card[ABILITY] = ability
 
@@ -93,16 +100,18 @@ class CardDescriptionParser:
         #TODO: add error checking for when one of these return Nil
         card[ABILITY_TYPE] = AbilityType.parse(ability)
         if card[ABILITY_TYPE] == AbilityType.Nil:
-            print(card[CARD_NAME], " failed to parse Ability Type")
+            if not self.specialCase(card):
+                print(card[CARD_NAME], " failed to parse Ability Type", file=sys.stderr)
             return
         card[ACTIVATION] = Activation.parse(ability)
         if card[ACTIVATION] == Activation.Nil:
-            print(card[CARD_NAME], " failed to parse Activation")
+            if not self.specialCase(card):
+                print(card[CARD_NAME], " failed to parse Activation", file=sys.stderr)
             return
         card[CONDITION] = Condition.parse(ability)
         card[AWARD_TYPE] = AwardType.parse(ability, card[ACTIVATION])
         if card[AWARD_TYPE] == Activation.Nil:
-            print(card[CARD_NAME], " failed to parse Award Type")
+            print(card[CARD_NAME], " failed to parse Award Type", file=sys.stderr)
             return
 
         self.parseBonuses(card)
@@ -112,8 +121,8 @@ class CardDescriptionParser:
 
     def parseBonuses(self, card):
         ability = card[ABILITY]
-        bonus = None
 
+        bonus = None
         for word in ability.split():
             try:
                 bonus = int(word)
@@ -122,8 +131,13 @@ class CardDescriptionParser:
                 continue
         
         if bonus is None:
-            print(card[CARD_NAME], "'failed to parse bonus value")
-            return
+            if ability.find("double") != -1:
+                bonus = card[POWER] * 2
+            elif ability.find("triple") != -1:
+                bonus = card[POWER] * 3
+            else:
+                print(card[CARD_NAME], "failed to parse bonus value", file=sys.stderr)
+                return
         
         if card[ABILITY_TYPE] == AbilityType.Steal:
             card[YOUR_BONUS] = bonus
@@ -150,6 +164,37 @@ class CardDescriptionParser:
         card[THEIR_BONUS] = 0
         return
 
+    def specialCase(self, card):
+        if card[CARD_NAME] == "Mary Celeste":
+            card[ACTIVATION] = Activation.Played
+            card[CONDITION] = Condition.LosingRound
+            card[AWARD_TYPE] = AwardType.ThisTurn
+            card[YOUR_BONUS] = -70
+            card[THEIR_BONUS] = 0
+            card[COMBO_TYPE] = ComboType.Nil
+            card[COMBO_VALUE] = None
+            return True
+        elif card[CARD_NAME] == "Paper":
+            card[ACTIVATION] = Activation.Nil
+            card[CONDITION] = Condition.Nil
+            card[AWARD_TYPE] = AwardType.Nil
+            card[YOUR_BONUS] = 0
+            card[THEIR_BONUS] = 0
+            card[COMBO_TYPE] = ComboType.Nil
+            card[COMBO_VALUE] = None
+            return True
+        return False
+
+    def printCards(self):
+        for card in self.cards.values():
+            print(
+                card[CATEGORY], card[SUBCATEGORY], card[CARD_NAME],
+                card[ENERGY_COST], card[POWER], card[ABILITY_TYPE],
+                card[ACTIVATION], card[CONDITION], card[YOUR_BONUS],
+                card[THEIR_BONUS], card[COMBO_TYPE], card[COMBO_VALUE], sep='\t'
+            )
+        return
+
 #TODO Special Cases
 # Mary Celeste (everything)
 # Jackson's Chameleon, Diabloceratops, Diplodocus (bonus)
@@ -165,3 +210,6 @@ class CardDescriptionParser:
 #  Snow Leopard
 #  Lion
 #  Leopard
+
+# add power
+# Diamond Tetra

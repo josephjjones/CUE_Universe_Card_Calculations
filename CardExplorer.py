@@ -7,6 +7,7 @@ def ParseCards(inputFile, outputFile):
         with redirect_stdout(f):
             parser = Parser()
             parser.parseCardFile(inputFile)
+            parser.printCards()
 
 
 if __name__ == "__main__":

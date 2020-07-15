@@ -1,5 +1,734 @@
-Mary Celeste  failed to parse Activation
-Jackson's Chameleon 'failed to parse bonus value
-Diabloceratops 'failed to parse bonus value
-Diplodocus 'failed to parse bonus value
-Paper  failed to parse Ability Type
+Oceans	Cephalopods	Mimic Octopus	8	88	AbilityType.Steal	Activation.Played	Condition.LoseTurn	4	-4	ComboType.Nil	None
+Oceans	Crustaceans	Red-Spotted Box Crab	3	28	AbilityType.CardCost	Activation.Drawn	Condition.LosingRound	2	0	ComboType.Nil	None
+Oceans	Crustaceans	Emperor Shrimp	4	64	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	0	1	ComboType.Nil	None
+Oceans	Crustaceans	Ecuadorian Hermit Crab	7	62	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Crustaceans	Horned Ghost Crab	1	9	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Crustaceans	Spiny Lobster	2	19	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Crustaceans	Porcelain Crab	8	69	AbilityType.Power	Activation.Played	Condition.MatchingArena	20	0	ComboType.ThisCard	None
+Oceans	Crustaceans	Japanese Spider Crab	3	37	AbilityType.Steal	Activation.Drawn	Condition.Nil	1	-1	ComboType.Nil	None
+Oceans	Deep Ocean	Weedy Sea Dragon	2	18	AbilityType.Power	Activation.Played	Condition.LosingRound	25	0	ComboType.ThisCard	None
+Oceans	Deep Ocean	Painted Frogfish	4	32	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Deep Ocean	Longnose Hawkfish	7	55	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Deep Ocean	Hairy Frogfish	5	0	AbilityType.Power	Activation.Drawn	Condition.Nil	60	0	ComboType.ThisCard	None
+Oceans	Deep Ocean	Fangtooth Moray	3	29	AbilityType.Power	Activation.Drawn	Condition.Nil	60	0	ComboType.Nil	None
+Oceans	Deep Ocean	Napoleon Fish	2	0	AbilityType.Power	Activation.Played	Condition.WinningRound	50	0	ComboType.Nil	None
+Oceans	Deep Ocean	Stingray	2	28	AbilityType.Power	Activation.Played	Condition.Nil	18	0	ComboType.All	None
+Oceans	Deep Ocean	Japanese Sea Nettle	3	26	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Deep Ocean	Giant Isopod	8	72	AbilityType.Energy	Activation.Played	Condition.LoseTurn	3	0	ComboType.Nil	None
+Oceans	Deep Ocean	Falco Hawkfish	6	65	AbilityType.Power	Activation.Played	Condition.Nil	30	0	ComboType.Nil	None
+Oceans	Fish	Blue Marlin	4	34	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Fish	Bluefin Tuna	1	8	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Fish	Great Barracuda	1	14	AbilityType.Energy	Activation.Played	Condition.Nil	1	0	ComboType.Nil	None
+Oceans	Fish	Sun Fish	6	53	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Fish	Lion Fish	4	33	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Fish	Scorpion Fish	7	60	AbilityType.Energy	Activation.Played	Condition.Nil	0	1	ComboType.Nil	None
+Oceans	Fish	Sailfish	5	48	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Fish	Clown Fish	4	32	AbilityType.Power	Activation.Drawn	Condition.Nil	25	0	ComboType.Nil	None
+Oceans	Fish	Yellow Tang	3	28	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Fish	Firefish Goby	4	28	AbilityType.Power	Activation.Played	Condition.Nil	10	0	ComboType.Nil	None
+Oceans	Fish	Anthias	7	59	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Fish	Copperband Butterflyfish	9	77	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	2	0	ComboType.Nil	None
+Oceans	Fish	Oriental Flying Gurnard	6	55	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Fish	Queen Angelfish	5	35	AbilityType.CardCost	Activation.Drawn	Condition.Nil	5	0	ComboType.Nil	None
+Oceans	Fish	Puffer Fish	3	17	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Fish	Diamond Tetra	5	10	AbilityType.Power	Activation.AfterTurn	Condition.Nil	10	0	ComboType.Nil	None
+Oceans	Ocean Mammals	Sea Otter	7	58	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Ocean Mammals	Polar Bear	7	60	AbilityType.Power	Activation.Played	Condition.WinningRound	10	0	ComboType.Nil	None
+Oceans	Ocean Mammals	Elephant Seal	8	71	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Ocean Mammals	Bottlenose Dolphin	7	52	AbilityType.CardCost	Activation.Drawn	Condition.Nil	2	0	ComboType.Nil	None
+Oceans	Ocean Mammals	Beluga Whale	2	17	AbilityType.Power	Activation.Played	Condition.Nil	100	100	ComboType.All	None
+Oceans	Ocean Mammals	Leopard Seal	5	36	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Ocean Mammals	Sperm Whale	1	5	AbilityType.Energy	Activation.AfterTurn	Condition.LosingRound	4	0	ComboType.Nil	None
+Oceans	Ocean Mammals	Spotted Dolphin	8	68	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Ocean Mammals	Orca	6	54	AbilityType.Power	Activation.Played	Condition.Nil	-20	-20	ComboType.Nil	None
+Oceans	Ocean Mammals	West Indian Manatee	4	35	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Ocean Mammals	Pilot Whale	3	26	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Ocean Mammals	Sea Lion	10	84	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Ocean Mammals	Atlantic Walrus	3	24	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Ocean Mammals	Dugong	6	54	AbilityType.Energy	Activation.Drawn	Condition.Nil	2	0	ComboType.Nil	None
+Oceans	Ocean Mammals	Humpback Whale	4	60	AbilityType.Energy	Activation.Played	Condition.Nil	3	0	ComboType.Nil	None
+Oceans	Ocean Mammals	Vaquita	5	48	AbilityType.Power	Activation.Played	Condition.FirstTurn	20	0	ComboType.Nil	None
+Oceans	Ocean Mammals	Amazon River Dolphin	2	18	AbilityType.Power	Activation.PlayedWith	Condition.Nil	50	0	ComboType.Nil	None
+Oceans	Ocean Mammals	Spinner Dolphin	8	59	AbilityType.Steal	Activation.AfterTurn	Condition.Nil	3	-3	ComboType.Nil	None
+Oceans	Ocean Mammals	Pacific Walrus	7	40	AbilityType.Power	Activation.AfterTurn	Condition.Nil	100	0	ComboType.Nil	None
+Oceans	Ocean Mammals	Harp Seal	3	27	AbilityType.Energy	Activation.AfterTurn	Condition.WinTurn	2	0	ComboType.Nil	None
+Oceans	Ocean Reptiles	Banded Sea Krait	6	55	AbilityType.Power	Activation.PlayedWith	Condition.Nil	30	0	ComboType.Nil	None
+Oceans	Ocean Reptiles	Galapagos Marine Iguana	2	17	AbilityType.Power	Activation.Played	Condition.Nil	15	0	ComboType.Nil	None
+Oceans	Ocean Reptiles	Saltwater Crocodile	1	8	AbilityType.Power	Activation.PlayedWith	Condition.Nil	25	0	ComboType.Nil	None
+Oceans	Ocean Reptiles	Olive Ridley Sea Turtle	5	45	AbilityType.Power	Activation.Played	Condition.Nil	20	0	ComboType.Nil	None
+Oceans	Oceans & Seas Holiday Specials	Turtle Dove	2	16	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Oceans & Seas Holiday Specials	Geese	3	24	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Oceans & Seas Holiday Specials	Swans	4	38	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Oceans & Seas Holiday Specials	Horn Shark Egg	6	57	AbilityType.Power	Activation.PlayedWith	Condition.Nil	40	0	ComboType.Nil	None
+Oceans	Oceans and Seas Mythic Cards	Kraken	6	50	AbilityType.Power	Activation.Played	Condition.Nil	40	0	ComboType.Nil	None
+Oceans	Oceans & Seas Special Fusions	Crown-of-Thorns Starfish	6	90	AbilityType.Power	Activation.Played	Condition.WinningRound	-50	0	ComboType.ThisCard	None
+Oceans	Riding the Waves!	RMS Lusitania	4	34	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Riding the Waves!	Titanic	4	36	AbilityType.Power	Activation.Played	Condition.Nil	30	30	ComboType.All	None
+Oceans	Riding the Waves!	HMS Victory	7	42	AbilityType.Energy	Activation.Played	Condition.WinTurn	3	0	ComboType.Nil	None
+Oceans	Riding the Waves!	Fram	4	32	AbilityType.Power	Activation.Played	Condition.FirstTurn	15	0	ComboType.Nil	None
+Oceans	Riding the Waves!	The Mayflower	6	67	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Riding the Waves!	The Golden Hinde	5	29	AbilityType.Power	Activation.Played	Condition.WinTurn	10	0	ComboType.Nil	None
+Oceans	Riding the Waves!	Pioneering Spirit	7	54	AbilityType.Power	Activation.PlayedWith	Condition.Nil	70	0	ComboType.Nil	None
+Oceans	Riding the Waves!	Santa Maria	7	45	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Riding the Waves!	Mary Celeste	5	70	AbilityType.Power	Activation.Played	Condition.LosingRound	-70	0	ComboType.Nil	
+Oceans	Riding the Waves!	Nao Victoria	6	58	AbilityType.Power	Activation.PlayedWith	Condition.Nil	18	0	ComboType.Nil	None
+Oceans	Riding the Waves!	USS Constitution	5	37	AbilityType.Power	Activation.Drawn	Condition.Nil	15	0	ComboType.Nil	None
+Oceans	Riding the Waves!	Leif Erikson	3	28	AbilityType.Energy	Activation.Drawn	Condition.LosingRound	4	0	ComboType.Nil	None
+Oceans	Sea Birds	Cormorant	1	9	AbilityType.Power	Activation.AfterTurn	Condition.Nil	9	0	ComboType.Nil	None
+Oceans	Sea Birds	Chinstrap Penguin	5	46	AbilityType.Power	Activation.PlayedWith	Condition.Nil	20	0	ComboType.Nil	None
+Oceans	Sea Birds	Sooty Terns	4	34	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Sea Birds	Puffin	5	49	AbilityType.Power	Activation.Played	Condition.Nil	10	0	ComboType.Nil	None
+Oceans	Sea Birds	Brown Pelican	6	51	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Sea Birds	Albatross	5	40	AbilityType.Power	Activation.Played	Condition.Nil	0	-10	ComboType.Nil	None
+Oceans	Sea Birds	Gannets	3	30	AbilityType.Power	Activation.Played	Condition.Nil	20	0	ComboType.Nil	None
+Oceans	Sea Birds	Macaroni Penguin	2	18	AbilityType.Power	Activation.PlayedWith	Condition.Nil	20	0	ComboType.Nil	None
+Oceans	Sea Birds	Ring-Billed Gull	3	28	AbilityType.Power	Activation.PlayedWith	Condition.Nil	15	0	ComboType.Nil	None
+Oceans	Sea Birds	Pacific Gull	5	45	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Sea Birds	Blue-Footed Booby	7	45	AbilityType.Power	Activation.Played	Condition.Nil	5	0	ComboType.Nil	None
+Oceans	Sea Birds	Royal Penguin	5	57	AbilityType.Power	Activation.Played	Condition.Nil	50	0	ComboType.Nil	None
+Oceans	Sea Birds	Tropicbird	6	40	AbilityType.CardCost	Activation.Drawn	Condition.Nil	4	0	ComboType.Nil	None
+Oceans	Sea Birds	Yellow-eyed Penguin	2	32	AbilityType.Power	Activation.Played	Condition.Nil	20	0	ComboType.Nil	None
+Oceans	Sea Birds	Frigatebird	7	62	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Sea Birds	Parastic Jaeger	5	60	AbilityType.Power	Activation.AfterTurn	Condition.Nil	0	-30	ComboType.Nil	None
+Oceans	Sea Birds	Black Guillemot	4	37	AbilityType.Power	Activation.PlayedWith	Condition.Nil	50	0	ComboType.Nil	None
+Oceans	Sea Birds	Wilson's Storm Petrel	3	26	AbilityType.Power	Activation.Drawn	Condition.Nil	25	0	ComboType.Nil	None
+Oceans	Sea Birds	Crested Auklet	6	59	AbilityType.Power	Activation.Played	Condition.Nil	20	0	ComboType.Nil	None
+Oceans	Sea Birds	Rockhopper Penguin	7	40	AbilityType.Power	Activation.AfterTurn	Condition.Nil	40	0	ComboType.Nil	None
+Oceans	Sharks!	Hammerhead Shark	9	83	AbilityType.Power	Activation.Played	Condition.Nil	0	-2	ComboType.Nil	None
+Oceans	Sharks!	Whale Shark	5	35	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	2	0	ComboType.Nil	None
+Oceans	Sharks!	Bull Shark	3	25	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Sharks!	Sand Tiger Shark	1	10	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Sharks!	Blue Shark	8	62	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	1	0	ComboType.Nil	None
+Oceans	Sharks!	Wobbegong	3	20	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Sharks!	Basking Shark	5	43	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Sharks!	Nurse Shark	10	73	AbilityType.Energy	Activation.InHand	Condition.Nil	1	0	ComboType.Nil	None
+Oceans	Sharks!	Sandbar Shark	4	33	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Sharks!	Mako Shark	5	42	AbilityType.Power	Activation.Played	Condition.Nil	0	-10	ComboType.Nil	None
+Oceans	Sharks!	Gray Reef Shark	7	59	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Sharks!	Caribbean Reef Shark	5	49	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Sharks!	Carpenter Shark	7	64	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Sharks!	Angelshark	3	25	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Oceans	Sharks!	Great White Shark	8	83	AbilityType.Power	Activation.Played	Condition.Nil	0	-100	ComboType.Nil	None
+Space	Amazing Astronauts	Valentina Tereshkova	4	40	AbilityType.Power	Activation.Drawn	Condition.Nil	25	0	ComboType.Nil	None
+Space	Amazing Astronauts	Jim Lovell	6	80	AbilityType.Power	Activation.AfterTurn	Condition.LosingRound	-20	0	ComboType.All	None
+Space	Amazing Astronauts	Alan B. Shepard Jr.	2	18	AbilityType.Power	Activation.Played	Condition.FirstTurn	18	0	ComboType.ThisCard	None
+Space	Amazing Astronauts	Neil Armstrong	7	69	AbilityType.Power	Activation.Drawn	Condition.Nil	11	0	ComboType.Nil	None
+Space	Amazing Astronauts	Buzz Aldrin	7	69	AbilityType.Power	Activation.Played	Condition.Nil	50	0	ComboType.Nil	None
+Space	Constellations	Boötes	9	63	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Constellations	Hercules	8	70	AbilityType.Power	Activation.Played	Condition.Nil	15	0	ComboType.Nil	None
+Space	Constellations	Ursa Minor	9	54	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Constellations	Grus	4	36	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Constellations	Draco	9	62	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Constellations	Cepheus	4	26	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Constellations	Cassiopoeia	9	44	AbilityType.Energy	Activation.Drawn	Condition.Nil	4	0	ComboType.Nil	None
+Space	Constellations	Perseus	5	43	AbilityType.Power	Activation.PlayedWith	Condition.Nil	10	0	ComboType.Nil	None
+Space	Constellations	Pegasus	3	18	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Constellations	Lepus	4	35	AbilityType.Power	Activation.PlayedWith	Condition.Nil	20	0	ComboType.Nil	None
+Space	Constellations	Centaurus	4	37	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Constellations	Canis Major	3	33	AbilityType.Power	Activation.AfterTurn	Condition.Nil	10	10	ComboType.All	None
+Space	Constellations	Lupus	3	24	AbilityType.Power	Activation.Played	Condition.Nil	10	0	ComboType.Nil	None
+Space	Constellations	Phoenix	9	61	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Constellations	Ursa Major	3	35	AbilityType.Power	Activation.PlayedWith	Condition.Nil	40	0	ComboType.Nil	None
+Space	Exploring the Stars	Kepler-186f	5	37	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Exploring the Stars	TrES-2b	4	38	AbilityType.Power	Activation.PlayedWith	Condition.Nil	41	0	ComboType.ThisCard	None
+Space	Exploring the Stars	51 Pegasi b	3	28	AbilityType.Power	Activation.Played	Condition.LosingRound	13	0	ComboType.All	None
+Space	Exploring the Stars	TRAPPIST-1	7	57	AbilityType.Power	Activation.Played	Condition.Nil	10	0	ComboType.Nil	None
+Space	Exploring the Stars	Andromeda	9	88	AbilityType.CardCost	Activation.Drawn	Condition.Nil	3	0	ComboType.Nil	None
+Space	Exploring the Stars	Kepler-16b	6	38	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Exploring the Stars	Gliese 581c	6	41	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Exploring the Stars	GJ 504 b	5	48	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Exploring the Stars	Ophiuchus Galaxy Explosion	5	39	AbilityType.Energy	Activation.Drawn	Condition.Nil	3	0	ComboType.Nil	None
+Space	Exploring the Stars	Ross 128	2	17	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Exploring the Stars	Witch Head Nebula	3	24	AbilityType.Energy	Activation.Played	Condition.Nil	1	0	ComboType.Nil	None
+Space	Exploring the Stars	Brown Dwarf	5	35	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Exploring the Stars	Helix Nebula	8	59	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Exploring the Stars	Crab Nebula	5	56	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Exploring the Stars	Pillars of Creation	4	38	AbilityType.Energy	Activation.Drawn	Condition.LosingRound	7	0	ComboType.Nil	None
+Space	Exploring the Stars	CoRoT-7b	5	48	AbilityType.Power	Activation.Drawn	Condition.Nil	40	0	ComboType.ThisCard	None
+Space	Forces of the Universe	Asteroids	10	66	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Forces of the Universe	Aquila Alcohol Cloud	10	72	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Forces of the Universe	Barringer Crater	3	28	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Forces of the Universe	Glactic Collision	7	63	AbilityType.Power	Activation.Played	Condition.Nil	15	0	ComboType.Nil	None
+Space	Forces of the Universe	Hercules-Cocrona Borealis Great Wall	7	40	AbilityType.Power	Activation.Played	Condition.Nil	15	0	ComboType.Nil	None
+Space	Forces of the Universe	King Tide	5	32	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Forces of the Universe	The Sombrero Galaxy	4	28	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Forces of the Universe	VY Canis Majoris	5	41	AbilityType.Power	Activation.Played	Condition.Nil	15	0	ComboType.Nil	None
+Space	Forces of the Universe	The Big Bang	7	17	AbilityType.Energy	Activation.Played	Condition.Nil	1	0	ComboType.Nil	None
+Space	Forces of the Universe	Eskimo Nebula	10	70	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Forces of the Universe	Magnetar	9	0	AbilityType.Power	Activation.Played	Condition.Nil	30	0	ComboType.All	None
+Space	Forces of the Universe	Betelgeuse	1	6	AbilityType.Power	Activation.Played	Condition.Nil	5	0	ComboType.Nil	None
+Space	Forces of the Universe	Hawking Radiation	2	19	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Forces of the Universe	The Fifth Force	5	45	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Forces of the Universe	Dark Matter	4	65	AbilityType.Power	Activation.Played	Condition.Nil	-20	-20	ComboType.All	None
+Space	Nebulae	Elephant's Trunk Nebula	3	24	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Nebulae	Jellyfish Nebula	3	28	AbilityType.Power	Activation.Played	Condition.LoseTurn	0	-20	ComboType.Nil	None
+Space	Nebulae	Ring Nebula	1	12	AbilityType.Power	Activation.PlayedWith	Condition.Nil	50	0	ComboType.Nil	None
+Space	Nebulae	Lagoon Nebula	4	25	AbilityType.Power	Activation.Drawn	Condition.Nil	25	0	ComboType.ThisCard	None
+Space	Nebulae	Carina Nebula	4	38	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Nebulae	Eagle Nebula	6	45	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Nebulae	Omega Nebula	3	24	AbilityType.Power	Activation.PlayedWith	Condition.Nil	65	0	ComboType.Nil	None
+Space	Nebulae	Heart Nebula	4	30	AbilityType.Power	Activation.PlayedWith	Condition.Nil	30	0	ComboType.Nil	None
+Space	Nebulae	Soul Nebula	5	40	AbilityType.Power	Activation.PlayedWith	Condition.Nil	30	0	ComboType.Nil	None
+Space	Nebulae	Crescent Nebula	6	67	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Nebulae	Dumbell Nebula	2	28	AbilityType.Power	Activation.PlayedWith	Condition.Nil	28	0	ComboType.Nil	None
+Space	Nebulae	Wizard Nebula	4	25	AbilityType.Steal	Activation.AfterTurn	Condition.LosingRound	2	-2	ComboType.Nil	None
+Space	Nebulae	Orion Nebula	3	28	AbilityType.Energy	Activation.Played	Condition.Nil	3	0	ComboType.Nil	None
+Space	Nebulae	Rosette Nebula	3	27	AbilityType.Power	Activation.Played	Condition.LoseTurn	40	0	ComboType.Nil	None
+Space	Nebulae	The Hand of God Nebula	6	50	AbilityType.Power	Activation.AfterTurn	Condition.Nil	0	-50	ComboType.Nil	None
+Space	Nebulae	Horsehead Nebula	7	64	AbilityType.Power	Activation.Played	Condition.LosingRound	50	0	ComboType.Nil	None
+Space	Space Holiday Specials	Rings of Saturn	8	69	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Space Holiday Specials	Christmas Tree Cluster	3	31	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Space Holiday Specials	Polaris	1	13	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Space Holiday Specials	Egg Nebula	4	38	AbilityType.Power	Activation.PlayedWith	Condition.Nil	40	0	ComboType.Nil	None
+Space	Space Mythic Cards	Laika	8	84	AbilityType.Power	Activation.Played	Condition.Nil	70	0	ComboType.Nil	None
+Space	Space Mythic Cards	Area 51	5	51	AbilityType.Power	Activation.Played	Condition.Nil	50	0	ComboType.Nil	None
+Space	Space Oddities	Shifting Solar Plasma	10	72	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Space Oddities	Black Hole	1	8	AbilityType.Power	Activation.PlayedWith	Condition.Nil	30	0	ComboType.Nil	None
+Space	Space Oddities	Gigantic Wave in Perseus	5	25	AbilityType.Energy	Activation.Played	Condition.WinTurn	1	0	ComboType.Nil	None
+Space	Space Oddities	Virgo Spiral Galaxy	6	45	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Space Oddities	Dying Star	1	10	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Space Oddities	Solar Golden Arches	6	43	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Space Oddities	Runaway Star	7	72	AbilityType.Power	Activation.Played	Condition.Nil	-20	-20	ComboType.All	None
+Space	Space Oddities	Neutrom Star Collection	5	43	AbilityType.Energy	Activation.Played	Condition.Nil	5	5	ComboType.Nil	None
+Space	Space Oddities	The Milky Way	6	49	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Space Oddities	'Oumuamua	9	64	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Space Oddities	Mira	1	40	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	-4	0	ComboType.Nil	None
+Space	Space Oddities	Quasar	1	11	AbilityType.Power	Activation.Played	Condition.Nil	-10	-10	ComboType.All	None
+Space	Space Oddities	Carina Nebula Landscape	8	80	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	-2	0	ComboType.Nil	None
+Space	Space Oddities	The Veil Nebula	7	35	AbilityType.Power	Activation.AfterTurn	Condition.Nil	10	0	ComboType.Nil	None
+Space	Space Oddities	Eta Carinae	10	60	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	5	0	ComboType.Nil	None
+Space	Space Special Fusions	Solar Flare	5	45	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	0	-2	ComboType.Nil	None
+Space	Space Technology	Space Shuttle Discovery	2	20	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Space Technology	Hubble Space Telescope	7	40	AbilityType.Power	Activation.Played	Condition.Nil	2	0	ComboType.Nil	None
+Space	Space Technology	Mars Rover Curiosity	1	8	AbilityType.Power	Activation.Drawn	Condition.Nil	15	0	ComboType.Nil	None
+Space	Space Technology	Juno	2	17	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Space Technology	Luna 1	10	77	AbilityType.Power	Activation.Played	Condition.Nil	10	0	ComboType.Nil	None
+Space	Space Technology	Skylab	10	63	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Space Technology	Mir	6	36	AbilityType.Power	Activation.AfterTurn	Condition.Nil	10	0	ComboType.Nil	None
+Space	Space Technology	Mercury-Atlas 6	6	46	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Space Technology	Telstar 1	4	28	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Ancient Greece	Apollo 11	7	67	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Space Technology	Lunar Module 'Eagle'	4	36	AbilityType.Power	Activation.AfterTurn	Condition.Nil	11	0	ComboType.Nil	None
+Space	Space Technology	Command Module 'Columbia'	2	18	AbilityType.Power	Activation.AfterTurn	Condition.Nil	11	0	ComboType.Nil	None
+Space	Space Technology	Saturn V	3	25	AbilityType.Power	Activation.PlayedWith	Condition.Nil	20	0	ComboType.Nil	None
+Space	Space Technology	Sputnik I	8	70	AbilityType.Power	Activation.Played	Condition.Nil	0	-10	ComboType.Nil	None
+Space	Space Technology	The Very Large Array	9	61	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Space Technology	International Space Station	3	10	AbilityType.Power	Activation.Played	Condition.Nil	20	20	ComboType.All	None
+Space	The Solar System	Mercury	1	9	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	The Solar System	Saturn	6	43	AbilityType.Power	Activation.PlayedWith	Condition.Nil	20	0	ComboType.Nil	None
+Space	The Solar System	Uranus	7	52	AbilityType.Power	Activation.InHand	Condition.Nil	7	0	ComboType.Nil	None
+Space	The Solar System	Jupiter	3	25	AbilityType.Energy	Activation.Drawn	Condition.Nil	2	0	ComboType.Nil	None
+Space	The Solar System	Earth	3	25	AbilityType.Energy	Activation.Drawn	Condition.Nil	3	0	ComboType.Nil	None
+Space	The Solar System	Mars	4	21	AbilityType.Energy	Activation.Played	Condition.Nil	0	-1	ComboType.Nil	None
+Space	The Solar System	Venus	2	17	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	The Solar System	Pluto, Dwarf Planet	8	57	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	The Solar System	Neptune	7	48	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	The Solar System	The Sun	10	30	AbilityType.Energy	Activation.Played	Condition.Nil	2	0	ComboType.Nil	None
+Space	The Solar System	Titan, Moon of Saturn	9	66	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	The Solar System	Solar Eclipse	3	26	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	The Solar System	Ceres	6	36	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	The Solar System	The Moon	3	27	AbilityType.Power	Activation.Drawn	Condition.Nil	4	0	ComboType.Nil	None
+Space	The Solar System	Halley's Comet	8	58	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Space	Watching the Skies	Mauna Kea Observatory	5	45	AbilityType.Power	Activation.Played	Condition.MatchingArena	45	0	ComboType.ThisCard	None
+Life on Land	Amphibians	European Tree Frog	3	28	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Amphibians	African Bullfrog	9	67	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Amphibians	Spotted Salamander	2	11	AbilityType.Energy	Activation.Played	Condition.Nil	0	-2	ComboType.Nil	None
+Life on Land	Amphibians	Poison Dart Frog	1	9	AbilityType.Power	Activation.Played	Condition.Nil	0	-5	ComboType.Nil	None
+Life on Land	Amphibians	Tiger Salamander	4	36	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Amphibians	Cave Salamander	6	54	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Amphibians	Panamanian Golden Frog	4	21	AbilityType.Energy	Activation.Played	Condition.LoseTurn	0	-4	ComboType.Nil	None
+Life on Land	Amphibians	Marbled Newt	8	73	AbilityType.Power	Activation.Played	Condition.Nil	20	20	ComboType.All	None
+Life on Land	Amphibians	Smoky Jungle Frog	5	43	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Amphibians	Long-Toed Salamander	3	26	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Amphibians	Great Crested Newt	10	71	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Amphibians	Red-Eyed Tree Frog	4	24	AbilityType.Power	Activation.Played	Condition.Nil	0	-10	ComboType.Nil	None
+Life on Land	Amphibians	Matamata Turtle	4	27	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Amphibians	Mossy Frog	3	24	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Amphibians	Axolotl	3	20	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	4	0	ComboType.Nil	None
+Life on Land	Beautiful Butterflies	Peacock Butterfly	5	35	AbilityType.Power	Activation.Played	Condition.Nil	10	0	ComboType.Nil	None
+Life on Land	Beautiful Butterflies	White Morpho Butterfly	3	26	AbilityType.Energy	Activation.Drawn	Condition.Nil	1	1	ComboType.Nil	None
+Life on Land	Beautiful Butterflies	Glasswing Butterfly	3	40	AbilityType.Power	Activation.Played	Condition.LoseTurn	-15	0	ComboType.Nil	None
+Life on Land	Beautiful Butterflies	Amber Phantom Butterfly	4	36	AbilityType.Steal	Activation.AfterTurn	Condition.MatchingArena	2	-2	ComboType.Nil	None
+Life on Land	Beautiful Butterflies	Emerald Swallowtail Butterfly	5	56	AbilityType.Power	Activation.Played	Condition.Nil	-10	-10	ComboType.All	None
+Life on Land	Beautiful Butterflies	Brown Hairstreak	7	60	AbilityType.Power	Activation.Drawn	Condition.WinningRound	20	0	ComboType.ThisCard	None
+Life on Land	Beautiful Butterflies	Painted Lady	4	35	AbilityType.Power	Activation.AfterTurn	Condition.WinningRound	20	0	ComboType.Nil	None
+Life on Land	Beautiful Butterflies	Zebra Longwing	3	17	AbilityType.Power	Activation.Played	Condition.FirstTurn	17	0	ComboType.Nil	None
+Life on Land	Beautiful Butterflies	Anna's Eighty-Eight	6	44	AbilityType.Power	Activation.Drawn	Condition.Nil	44	0	ComboType.ThisCard	None
+Life on Land	Beautiful Butterflies	Monarch Butterfly	3	28	AbilityType.Power	Activation.PlayedWith	Condition.Nil	70	0	ComboType.Nil	None
+Life on Land	Birds	Boat-Billed Heron	8	59	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Birds	Collared Aracari	3	24	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Birds	Crowned Woodnymph	6	43	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Birds	Golden Pheasant	10	79	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	3	0	ComboType.Nil	None
+Life on Land	Birds	Knobbed Hornbill	6	56	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Birds	Flamingos	8	46	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	3	0	ComboType.Nil	None
+Life on Land	Birds	Peacock	5	35	AbilityType.Power	Activation.Played	Condition.Nil	0	-10	ComboType.Nil	None
+Life on Land	Birds	Montezuma Oropendola	2	17	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Birds	Rainbow Lorikeet	10	73	AbilityType.Power	Activation.Played	Condition.Nil	10	0	ComboType.Nil	None
+Life on Land	Birds	Red-Necked Tanager	7	54	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Birds	Griffon Vulture	9	56	AbilityType.Power	Activation.Played	Condition.Nil	0	-2	ComboType.Nil	None
+Life on Land	Birds	Toucan	8	64	AbilityType.Energy	Activation.Played	Condition.LoseTurn	5	0	ComboType.Nil	None
+Life on Land	Birds	Kingfisher	8	63	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Birds	Cock-of-the-Rock	6	41	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Birds	Bald Eagle	10	70	AbilityType.CardCost	Activation.Drawn	Condition.Nil	3	0	ComboType.Nil	None
+Life on Land	Bugs	Scarab Beetle	3	25	AbilityType.Power	Activation.Played	Condition.Nil	10	0	ComboType.Nil	None
+Life on Land	Bugs	Leaf Insect	4	37	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Bugs	Forest Giant Owl Butterfly	9	62	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Bugs	Jewel Beetle	2	16	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Bugs	Bush Cricket	4	28	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Bugs	Treehopper	8	57	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Bugs	Thick-Headed Fly	4	37	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Bugs	Green Lynx Spider	6	47	AbilityType.Power	Activation.Played	Condition.MatchingArena	30	0	ComboType.ThisCard	None
+Life on Land	Bugs	Bullet Ant	9	60	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Bugs	Cockroach	7	52	AbilityType.Energy	Activation.Played	Condition.LoseTurn	4	0	ComboType.Nil	None
+Life on Land	Bugs	Dragonfly	8	72	AbilityType.Energy	Activation.Played	Condition.LoseTurn	1	0	ComboType.Nil	None
+Life on Land	Bugs	Hercules Beetle	4	34	AbilityType.Power	Activation.Played	Condition.LoseTurn	10	0	ComboType.Nil	None
+Life on Land	Bugs	Asian Giant Hornet	7	66	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	0	-3	ComboType.Nil	None
+Life on Land	Bugs	Army Ant	8	46	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Bugs	Scorpion Fly	4	42	AbilityType.Steal	Activation.AfterTurn	Condition.Nil	4	-4	ComboType.Nil	None
+Life on Land	Cool Cats	Cheetah	3	50	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Cool Cats	Ocelot	8	55	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Cool Cats	Serval	9	64	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Cool Cats	Florida Panther	4	23	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Cool Cats	Bengal Tiger	3	26	AbilityType.Power	Activation.Drawn	Condition.LosingRound	10	0	ComboType.Nil	None
+Life on Land	Cool Cats	Snow Leopard	10	68	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Cool Cats	Cougar	4	17	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Cool Cats	Lion	4	33	AbilityType.Power	Activation.PlayedWith	Condition.Nil	40	0	ComboType.Nil	None
+Life on Land	Cool Cats	Leopard	4	24	AbilityType.Power	Activation.Drawn	Condition.LosingRound	10	0	ComboType.Nil	None
+Life on Land	Cool Cats	Caracal	1	11	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Cool Cats	Sumatran Tiger	5	38	AbilityType.Energy	Activation.Drawn	Condition.LosingRound	3	0	ComboType.Nil	None
+Life on Land	Cool Cats	Jaguar	3	36	AbilityType.Energy	Activation.Drawn	Condition.LosingRound	1	0	ComboType.Nil	None
+Life on Land	Cool Cats	Bobcat	2	15	AbilityType.Power	Activation.Drawn	Condition.Nil	14	0	ComboType.Nil	None
+Life on Land	Cool Cats	Eurasian Lynx	3	26	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Cool Cats	Rusty-Spotted Cat	2	17	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Dogs	Pug	1	8	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Dogs	Labrador Retriever	3	24	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Dogs	English Bulldog	6	46	AbilityType.Power	Activation.AfterTurn	Condition.Nil	5	0	ComboType.Nil	None
+Life on Land	Dogs	Serbian Husky	1	6	AbilityType.Energy	Activation.Played	Condition.Nil	1	0	ComboType.Nil	None
+Life on Land	Dogs	Bloodhound	10	65	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Dogs	Irish Water Spaniel	2	17	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Dogs	Dachshund	6	44	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Dogs	German Shepard	5	47	AbilityType.Power	Activation.Drawn	Condition.Nil	5	0	ComboType.All	None
+Life on Land	Dogs	Poodle	8	66	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Dogs	Rottweiler	10	93	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Dogs	Border Collie	3	15	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	3	0	ComboType.Nil	None
+Life on Land	Dogs	Greyhound	8	64	AbilityType.Power	Activation.Played	Condition.LosingRound	20	0	ComboType.ThisCard	None
+Life on Land	Dogs	Golden Retriever	6	68	AbilityType.Energy	Activation.Drawn	Condition.Nil	5	5	ComboType.Nil	None
+Life on Land	Dogs	French Bulldog	4	19	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Dogs	Shiba Inu	8	57	AbilityType.Power	Activation.InHand	Condition.Nil	4	0	ComboType.Nil	None
+Life on Land	Hybrid Animals	Liger	4	30	AbilityType.Power	Activation.Played	Condition.Nil	30	0	ComboType.Nil	None
+Life on Land	Hybrid Animals	Bengal Cat	2	10	AbilityType.Power	Activation.PlayedWith	Condition.Nil	30	0	ComboType.Nil	None
+Life on Land	Hybrid Animals	Mule	8	63	AbilityType.Power	Activation.PlayedWith	Condition.Nil	30	0	ComboType.Nil	None
+Life on Land	Hybrid Animals	Zorse	7	55	AbilityType.Power	Activation.PlayedWith	Condition.Nil	30	0	ComboType.Nil	None
+Life on Land	Life on Land Holiday Specials	Robin	7	64	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Life on Land Holiday Specials	French Hen	10	83	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Life on Land Holiday Specials	Reindeer	6	55	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Life on Land Mythic Cards	Bigfoot	4	47	AbilityType.Power	Activation.Played	Condition.Nil	50	0	ComboType.Nil	None
+Life on Land	Life on Land Special Fusions	Mountain Goat	8	20	AbilityType.Power	Activation.Played	Condition.Nil	40	0	ComboType.Nil	None
+Life on Land	Life on Land Special Fusions	Arctic Fox	6	69	AbilityType.Power	Activation.PlayedWith	Condition.Nil	80	0	ComboType.Nil	None
+Life on Land	Mammals	Coati	7	52	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Mammals	Tayra	5	45	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Mammals	Capybara	5	34	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Mammals	Amazon Sloth	1	40	AbilityType.Energy	Activation.Played	Condition.Nil	-1	0	ComboType.Nil	None
+Life on Land	Mammals	Giant Armadillo	7	59	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Mammals	Vampire Bat	1	9	AbilityType.Power	Activation.Played	Condition.Nil	0	-5	ComboType.Nil	None
+Life on Land	Mammals	Tamandua	2	16	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Mammals	Kinkajou	3	28	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Mammals	Agouti	5	43	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Mammals	Tapir	10	76	AbilityType.Power	Activation.Drawn	Condition.Nil	10	0	ComboType.All	None
+Life on Land	Mammals	Brown Bear	4	42	AbilityType.Energy	Activation.AfterTurn	Condition.WinningRound	4	0	ComboType.Nil	None
+Life on Land	Mammals	Okapi	7	58	AbilityType.Power	Activation.Played	Condition.Nil	0	-10	ComboType.Nil	None
+Life on Land	Mammals	Giant Anteater	8	52	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Mammals	Peccary Hog	9	58	AbilityType.Energy	Activation.Drawn	Condition.Nil	3	0	ComboType.Nil	None
+Life on Land	Mammals	Grizzly Bear	5	30	AbilityType.Power	Activation.Played	Condition.WinningRound	50	0	ComboType.ThisCard	None
+Life on Land	Mammals	Hippopotamus	5	46	AbilityType.Power	Activation.Drawn	Condition.Nil	0	-15	ComboType.Nil	None
+Life on Land	Marsupials	Red Kangaroo	6	43	AbilityType.Steal	Activation.Played	Condition.LoseTurn	1	-1	ComboType.Nil	None
+Life on Land	Marsupials	Wallaby	6	48	AbilityType.Power	Activation.Played	Condition.LoseTurn	0	-10	ComboType.Nil	None
+Life on Land	Marsupials	Koala	4	29	AbilityType.Power	Activation.Played	Condition.Nil	0	-20	ComboType.Nil	None
+Life on Land	Marsupials	Numbat	2	17	AbilityType.Power	Activation.Drawn	Condition.Nil	-20	0	ComboType.Nil	None
+Life on Land	Marsupials	Brushtail Possum	2	29	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Marsupials	Quokka	2	17	AbilityType.Power	Activation.Drawn	Condition.Nil	25	0	ComboType.Nil	None
+Life on Land	Marsupials	Eastern Grey Kangaroo	5	32	AbilityType.Power	Activation.AfterTurn	Condition.Nil	32	0	ComboType.Nil	None
+Life on Land	Marsupials	Sugar Glider	3	35	AbilityType.Power	Activation.Played	Condition.Nil	-10	-10	ComboType.All	None
+Life on Land	Marsupials	Tasmanian Devil	5	89	AbilityType.Power	Activation.Drawn	Condition.Nil	-25	0	ComboType.Nil	None
+Life on Land	Marsupials	Fat-Tailed Dunnart	10	66	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Marsupials	Quoll	1	8	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Plant Life	Petunia	4	42	AbilityType.Power	Activation.PlayedWith	Condition.Nil	70	0	ComboType.Nil	None
+Life on Land	Plant Life	Pentas	5	30	AbilityType.Power	Activation.Drawn	Condition.Nil	5	0	ComboType.All	None
+Life on Land	Primates	Spectral Tarsier	9	64	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Primates	Mandrill	6	51	AbilityType.Energy	Activation.Played	Condition.WinTurn	0	-1	ComboType.Nil	None
+Life on Land	Primates	White-Faced Saki Monkey	5	37	AbilityType.Power	Activation.Played	Condition.WinTurn	0	-20	ComboType.Nil	None
+Life on Land	Primates	Gibbon	5	22	AbilityType.Power	Activation.Played	Condition.Nil	12	0	ComboType.Nil	None
+Life on Land	Primates	Red Titi Monkey	4	36	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Primates	Colobus Monkey	8	52	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Primates	Howler Monkey	4	28	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Primates	Mother Orangutan	6	45	AbilityType.Power	Activation.Played	Condition.LoseTurn	45	0	ComboType.Nil	None
+Life on Land	Primates	Baboon	5	18	AbilityType.Power	Activation.Drawn	Condition.Nil	15	0	ComboType.All	None
+Life on Land	Primates	Silverback Gorilla	7	77	AbilityType.CardCost	Activation.AfterTurn	Condition.Nil	2	0	ComboType.Nil	None
+Life on Land	Primates	Slow Loris	1	9	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Primates	Japanese Snow Monkey	4	35	AbilityType.Energy	Activation.PlayedWith	Condition.Nil	35	0	ComboType.Nil	None
+Life on Land	Primates	Celebes Crested Macaque	3	28	AbilityType.Power	Activation.Played	Condition.LosingRound	20	0	ComboType.Nil	None
+Life on Land	Reptiles	Bushmaster	2	14	AbilityType.Power	Activation.Played	Condition.Nil	0	-4	ComboType.Nil	None
+Life on Land	Reptiles	Caiman Lizard	9	63	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Reptiles	Jackson's Chameleon	7	30	AbilityType.Power	Activation.Played	Condition.LosingRound	90	0	ComboType.Nil	None
+Life on Land	Reptiles	Veiled Chameleon	9	67	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Reptiles	Komodo Dragon	2	18	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Reptiles	Mwanza Flat-Headed Rock Agama	7	66	AbilityType.Energy	Activation.Played	Condition.LoseTurn	-4	0	ComboType.Nil	None
+Life on Land	Reptiles	Alligator Snapping Turtle	4	14	AbilityType.Power	Activation.Played	Condition.Nil	20	0	ComboType.Nil	None
+Life on Land	Reptiles	Leopard Gecko	3	37	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Reptiles	Softshell Turtle	1	8	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Reptiles	Panther Chameleon	5	37	AbilityType.Power	Activation.Played	Condition.Nil	5	0	ComboType.Nil	None
+Life on Land	Reptiles	Green Iguana	4	41	AbilityType.Power	Activation.Played	Condition.LoseTurn	10	0	ComboType.All	None
+Life on Land	Reptiles	King Cobra	6	8	AbilityType.Energy	Activation.Played	Condition.Nil	0	-1	ComboType.Nil	None
+Life on Land	Reptiles	Galapagos Land Iguana	2	18	AbilityType.Power	Activation.Played	Condition.Nil	25	0	ComboType.Nil	None
+Life on Land	Reptiles	Emerald Tree Boa	9	85	AbilityType.Power	Activation.Played	Condition.WinTurn	0	-20	ComboType.Nil	None
+Life on Land	Venomous Creatures	Black Widow	4	29	AbilityType.Power	Activation.Played	Condition.WinTurn	10	0	ComboType.Nil	None
+Life on Land	Venomous Creatures	Cone Snail	4	0	AbilityType.Power	Activation.Played	Condition.Nil	0	-15	ComboType.Nil	None
+Life on Land	Venomous Creatures	Stonefish	9	64	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Venomous Creatures	Sea Wasp	8	53	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Venomous Creatures	Africanised Honey Bee	10	72	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Venomous Creatures	Duck-Billed Platypus	6	40	AbilityType.Energy	Activation.Drawn	Condition.Nil	2	0	ComboType.Nil	None
+Life on Land	Venomous Creatures	Wasp	2	19	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Life on Land	Venomous Creatures	Brown Recluse	4	38	AbilityType.Steal	Activation.Played	Condition.LoseTurn	2	-2	ComboType.Nil	None
+Life on Land	Venomous Creatures	Deathstalker	5	35	AbilityType.CardCost	Activation.Drawn	Condition.Nil	2	0	ComboType.Nil	None
+Life on Land	Venomous Creatures	Blue Poison Dart Frog	3	30	AbilityType.Power	Activation.Played	Condition.Nil	30	0	ComboType.Nil	None
+Life on Land	Venomous Creatures	Hooded Pitohui	3	60	AbilityType.Power	Activation.Played	Condition.Nil	-30	0	ComboType.Nil	None
+History	Ancient Egypt	The Pyramids	3	33	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Ancient Egypt	The Sphinx	3	26	AbilityType.Power	Activation.Played	Condition.Nil	15	15	ComboType.All	None
+History	Ancient Egypt	Sekhmet	5	36	AbilityType.Power	Activation.PlayedWith	Condition.Nil	20	0	ComboType.Nil	None
+History	Ancient Egypt	Egyptian Cats	10	71	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Ancient Egypt	Mummies	3	27	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Ancient Egypt	Abu Simbel	7	51	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Ancient Egypt	Tutankahmun	7	72	AbilityType.Power	Activation.PlayedWith	Condition.Nil	50	0	ComboType.Nil	None
+History	Ancient Egypt	Ramesses II	4	25	AbilityType.Power	Activation.Played	Condition.Nil	10	0	ComboType.Nil	None
+History	Ancient Egypt	Karnak	8	58	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Ancient Egypt	Kom Ombo Temple	2	18	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Ancient Egypt	Obelisks	1	9	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Ancient Egypt	Osiris	4	31	AbilityType.Power	Activation.PlayedWith	Condition.Nil	20	0	ComboType.Nil	None
+History	Ancient Egypt	Ra	6	44	AbilityType.Power	Activation.PlayedWith	Condition.Nil	20	0	ComboType.Nil	None
+History	Ancient Egypt	Colossi of Memnon	5	40	AbilityType.Energy	Activation.Drawn	Condition.Nil	3	0	ComboType.Nil	None
+History	Ancient Egypt	Djeser-Djeseru	6	35	AbilityType.Power	Activation.Played	Condition.Nil	20	0	ComboType.Nil	None
+History	Ancient Egypt	Rosetta Stone	7	65	AbilityType.Power	Activation.Played	Condition.LoseTurn	20	0	ComboType.Nil	None
+History	Ancient Greece	Isle of Corfu	10	70	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Ancient Greece	Mount Olympus	4	29	AbilityType.Power	Activation.Played	Condition.WinTurn	10	0	ComboType.Nil	None
+History	Ancient Greece	Parthenon	9	79	AbilityType.Power	Activation.Played	Condition.LoseTurn	10	0	ComboType.Nil	None
+History	Ancient Greece	Spartan Helmet	5	42	AbilityType.Power	Activation.Played	Condition.LoseTurn	4	0	ComboType.Nil	None
+History	Ancient Greece	Theatre of Epidaurus	7	65	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Ancient Greece	Alexander the Great	4	28	AbilityType.Energy	Activation.Played	Condition.Nil	2	0	ComboType.Nil	None
+History	Ancient Greece	Greek Urns	4	38	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Ancient Greece	Olive Trees	7	57	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Ancient Greece	Ionic Column	3	28	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Ancient Greece	Athena	2	14	AbilityType.Power	Activation.Played	Condition.LosingRound	10	0	ComboType.ThisCard	None
+History	Ancient Greece	Ancient Olympia	2	18	AbilityType.Energy	Activation.Played	Condition.WinTurn	2	0	ComboType.Nil	None
+History	Ancient Greece	Sanctuary of Delphi	5	46	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Ancient Greece	Socrates	4	40	AbilityType.Power	Activation.PlayedWith	Condition.Nil	20	0	ComboType.Nil	None
+History	Ancient Greece	Zeus	3	36	AbilityType.Power	Activation.PlayedWith	Condition.Nil	50	0	ComboType.Nil	None
+History	Ancient Greece	Icarus	4	36	AbilityType.Power	Activation.Played	Condition.Nil	-30	-30	ComboType.All	None
+History	Ancient Greece	Heracles	2	0	AbilityType.Power	Activation.Played	Condition.MatchingArena	60	0	ComboType.ThisCard	None
+History	Festive Traditions	La Noche de Los Rábanos	6	53	AbilityType.Power	Activation.Played	Condition.Nil	10	0	ComboType.Nil	None
+History	Festive Traditions	Flores de Noche Buena	6	51	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Festive Traditions	La Befana	8	67	AbilityType.Power	Activation.Played	Condition.Nil	0	-3	ComboType.Nil	None
+History	Festive Traditions	La Quema del Diablo	2	19	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Festive Traditions	Tio de Nadal	6	46	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Festive Traditions	Norwegian Broom Hiding	3	27	AbilityType.Power	Activation.Played	Condition.WinTurn	15	0	ComboType.Nil	None
+History	Festive Traditions	The Gävle Goat	6	45	AbilityType.Energy	Activation.Played	Condition.LoseTurn	0	-2	ComboType.Nil	None
+History	Festive Traditions	Finnish Cemetery Tradition	2	18	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Festive Traditions	The Legend of Danny	5	41	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Festive Traditions	Caganer	7	46	AbilityType.Energy	Activation.Drawn	Condition.Nil	2	0	ComboType.Nil	None
+History	Festive Traditions	St. Nicholas's Day	2	17	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Festive Traditions	Mari Lwyd	10	83	AbilityType.Power	Activation.Played	Condition.Nil	15	0	ComboType.Nil	None
+History	Festive Traditions	Ukranian Spider Decorations	4	36	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Festive Traditions	Christmas Pudding	4	36	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Feudal Japan	Samurai	3	37	AbilityType.Power	Activation.Played	Condition.WinningRound	-10	0	ComboType.ThisCard	None
+History	Feudal Japan	Ieyasu Tokugawa	5	47	AbilityType.Power	Activation.Played	Condition.Nil	0	-30	ComboType.Nil	None
+History	Feudal Japan	Rice Terraces	2	16	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Feudal Japan	Kabuki Mask	6	53	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Feudal Japan	Katana	7	62	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Feudal Japan	Date Masamune	3	24	AbilityType.Power	Activation.Played	Condition.Nil	0	-10	ComboType.Nil	None
+History	Feudal Japan	Shuriken	5	40	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Feudal Japan	Osaka Castle	9	85	AbilityType.Energy	Activation.AfterTurn	Condition.LosingRound	6	0	ComboType.Nil	None
+History	Feudal Japan	Torii Gates	2	16	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Feudal Japan	Buddhism	6	53	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Feudal Japan	Neo-Confucianism	4	33	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Feudal Japan	Meoto Iwa	1	9	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Feudal Japan	Kyoto	2	15	AbilityType.Power	Activation.Drawn	Condition.Nil	2	0	ComboType.Nil	None
+History	Feudal Japan	Kumamoto Castle	10	75	AbilityType.Power	Activation.Played	Condition.Nil	0	-3	ComboType.Nil	None
+History	Feudal Japan	Oda Nobunaga	6	110	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	-3	0	ComboType.Nil	None
+History	Greek Mythology	Hades	2	19	AbilityType.Power	Activation.Played	Condition.Nil	28	0	ComboType.Nil	None
+History	Greek Mythology	Aphrodite	4	40	AbilityType.Power	Activation.PlayedWith	Condition.Nil	30	0	ComboType.Nil	None
+History	Greek Mythology	Poseidon	4	36	AbilityType.Power	Activation.Played	Condition.Nil	-20	-20	ComboType.All	None
+History	Greek Mythology	Minotaur	6	66	AbilityType.CardCost	Activation.AfterTurn	Condition.Nil	3	0	ComboType.Nil	None
+History	History Holday Specials	Santa Claus	8	66	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	History Holday Specials	Christmas Trees	4	39	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	History Holday Specials	Mistletoe	6	58	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	History Holday Specials	Easter Island Statues	8	77	AbilityType.Energy	Activation.Drawn	Condition.Nil	5	0	ComboType.Nil	None
+History	History Mythic Cards	El Dorado	10	75	AbilityType.Energy	Activation.Played	Condition.FirstTurn	5	0	ComboType.Nil	None
+History	History Mythic Cards	The Ark of the Covenant	2	22	AbilityType.Power	Activation.Drawn	Condition.Nil	70	0	ComboType.Nil	None
+History	History Special Fusions	Genghis Khan	5	55	AbilityType.Steal	Activation.Played	Condition.MatchingArena	5	-5	ComboType.Nil	None
+History	Legends of the Old West	Billy the Kid	8	66	AbilityType.Power	Activation.InHand	Condition.Nil	10	0	ComboType.Nil	None
+History	Legends of the Old West	Calamity Jane	5	92	AbilityType.Power	Activation.Played	Condition.Nil	-40	0	ComboType.All	None
+History	Legends of the Old West	Goyahkla	3	29	AbilityType.CardCost	Activation.Drawn	Condition.Nil	1	0	ComboType.Nil	None
+History	Legends of the Old West	Annie Oakley	8	71	AbilityType.CardCost	Activation.Drawn	Condition.Nil	2	0	ComboType.Nil	None
+History	Legends of the Old West	Jesse James	7	62	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Legends of the Old West	Doc Holliday	6	52	AbilityType.Power	Activation.PlayedWith	Condition.Nil	25	0	ComboType.Nil	None
+History	Legends of the Old West	Joaquin Murrieta	8	79	AbilityType.Steal	Activation.AfterTurn	Condition.LosingRound	2	-2	ComboType.Nil	None
+History	Legends of the Old West	Pearl Hart	4	35	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Legends of the Old West	Elmer McCurdy	3	24	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Legends of the Old West	Sitting Bull	4	30	AbilityType.Power	Activation.Played	Condition.LoseTurn	25	0	ComboType.Nil	None
+History	Legends of the Old West	Wyatt Earp	3	26	AbilityType.Power	Activation.PlayedWith	Condition.Nil	25	0	ComboType.Nil	None
+History	Legends of the Old West	Mary Fields	6	50	AbilityType.Power	Activation.AfterTurn	Condition.Nil	30	0	ComboType.Nil	None
+History	Legends of the Old West	Butch Cassidy	4	5	AbilityType.Power	Activation.Played	Condition.Nil	25	0	ComboType.Nil	None
+History	Legends of the Old West	Wild Bill Hickok	4	49	AbilityType.Power	Activation.PlayedWith	Condition.Nil	50	0	ComboType.Nil	None
+History	Mad Monarchs	Ivan the Terrible	4	5	AbilityType.Power	Activation.Played	Condition.Nil	40	0	ComboType.Nil	None
+History	Mad Monarchs	Charles VI of France	1	16	AbilityType.Energy	Activation.Played	Condition.Nil	-2	0	ComboType.Nil	None
+History	Mad Monarchs	George III	5	47	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Mad Monarchs	Ludwig II of Bavaria	4	25	AbilityType.Power	Activation.Played	Condition.Nil	5	5	ComboType.All	None
+History	Mad Monarchs	Henry VIII	6	56	AbilityType.Power	Activation.PlayedWith	Condition.Nil	10	0	ComboType.Nil	None
+History	Mad Monarchs	Caligula	3	27	AbilityType.Power	Activation.Played	Condition.Nil	15	15	ComboType.All	None
+History	Mad Monarchs	Rudolf II, Holy Roman Emperor	4	34	AbilityType.Power	Activation.Played	Condition.Nil	10	0	ComboType.Nil	None
+History	Mad Monarchs	Mary Queen of Scots	4	43	AbilityType.CardCost	Activation.AfterTurn	Condition.Nil	2	2	ComboType.All	None
+History	Norse Gods	Loki	5	35	AbilityType.CardCost	Activation.AfterTurn	Condition.Nil	0	3	ComboType.Nil	None
+History	Norse Gods	Freya	2	25	AbilityType.Power	Activation.Played	Condition.Nil	-25	-25	ComboType.All	None
+History	Norse Gods	Thor	5	48	AbilityType.Power	Activation.Played	Condition.Nil	30	0	ComboType.Nil	None
+History	Norse Gods	Odin	3	30	AbilityType.Power	Activation.PlayedWith	Condition.Nil	30	0	ComboType.Nil	None
+History	Norse Gods	Freyr	3	33	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	3	3	ComboType.Nil	None
+History	Norse Gods	Baldr	4	32	AbilityType.Power	Activation.Played	Condition.WinTurn	40	0	ComboType.Nil	None
+History	Norse Gods	Frigga	7	70	AbilityType.Power	Activation.PlayedWith	Condition.Nil	30	0	ComboType.Nil	None
+History	Norse Gods	Tyr	9	75	AbilityType.Power	Activation.Drawn	Condition.Nil	25	0	ComboType.Nil	None
+History	The Roman Empire	Jupiter, King of the Gods	4	10	AbilityType.Energy	Activation.Drawn	Condition.Nil	3	0	ComboType.Nil	None
+History	The Roman Empire	The Colosseum	1	12	AbilityType.Power	Activation.PlayedWith	Condition.Nil	45	0	ComboType.Nil	None
+History	The Roman Empire	Legionary Helmet	4	36	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	The Roman Empire	Volubilis	7	62	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	The Roman Empire	Neptune, God of Water	6	44	AbilityType.Power	Activation.Played	Condition.Nil	15	0	ComboType.Nil	None
+History	The Roman Empire	Galdius	2	25	AbilityType.Energy	Activation.Played	Condition.LoseTurn	1	0	ComboType.Nil	None
+History	The Roman Empire	Hadrian's Wall	4	35	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	The Roman Empire	The Roman Army	4	17	AbilityType.Power	Activation.Played	Condition.Nil	5	0	ComboType.All	None
+History	The Roman Empire	Bacchus, God of Wine	4	33	AbilityType.Power	Activation.Played	Condition.WinTurn	12	0	ComboType.Nil	None
+History	The Roman Empire	Maison Carrée	9	76	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	The Roman Empire	The Forum in Rome	1	8	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	The Roman Empire	Mosaics	1	8	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	The Roman Empire	Mount Vesuvius	6	65	AbilityType.Power	Activation.Played	Condition.Nil	0	-20	ComboType.Nil	None
+History	The Roman Empire	Nero	2	18	AbilityType.Power	Activation.Played	Condition.Nil	14	0	ComboType.Nil	None
+History	The Roman Empire	Julius Caesar	7	89	AbilityType.Power	Activation.PlayedWith	Condition.Nil	50	0	ComboType.Nil	None
+History	Wonders of Construction	Songyue Pagoda	6	39	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Wonders of Construction	Al Khazneh	6	58	AbilityType.CardCost	Activation.Drawn	Condition.Nil	1	0	ComboType.Nil	None
+History	Wonders of Construction	Chand Baori	2	19	AbilityType.Power	Activation.Played	Condition.Nil	10	0	ComboType.Nil	None
+History	Wonders of Construction	Le Mont-Saint-Michel	3	24	AbilityType.Power	Activation.PlayedWith	Condition.Nil	40	0	ComboType.Nil	None
+History	Wonders of Construction	Dome of the Rock	3	24	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Wonders of Construction	The Colossus of Rhodes	7	70	AbilityType.Power	Activation.Played	Condition.FirstTurn	40	0	ComboType.ThisCard	None
+History	Wonders of Construction	Chichén Itzá	3	30	AbilityType.Energy	Activation.Played	Condition.MatchingArena	3	0	ComboType.Nil	None
+History	Wonders of Construction	The Library of Celsus	4	34	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Wonders of Construction	Haedong Yonggungsta Temple	2	19	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Wonders of Construction	Angkor Wat	8	54	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+History	Wonders of Construction	Stonehenge	6	54	AbilityType.Power	Activation.Played	Condition.Nil	20	0	ComboType.Nil	None
+Palaeontology	Ancient Creatures	Elasmotherium	7	66	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Ancient Creatures	Mosasaurus	6	53	AbilityType.Power	Activation.Played	Condition.Nil	20	0	ComboType.Nil	None
+Palaeontology	Ancient Creatures	Archaeopteryx	7	45	AbilityType.Power	Activation.Played	Condition.Nil	20	0	ComboType.Nil	None
+Palaeontology	Ancient Creatures	Hallucigenia	1	8	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Ancient Creatures	Megalodon	6	48	AbilityType.Power	Activation.Played	Condition.Nil	15	0	ComboType.Nil	None
+Palaeontology	Ancient Creatures	Paraceratherium	7	69	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Ancient Creatures	Magetherium	4	34	AbilityType.Power	Activation.PlayedWith	Condition.Nil	20	0	ComboType.Nil	None
+Palaeontology	Ancient Creatures	Dunkleosteus	5	49	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Ancient Creatures	Opabinia	8	72	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Ancient Creatures	Gastornis	3	27	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Ancient Creatures	Gorgonopsids	5	46	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Ancient Creatures	Smilodon	7	54	AbilityType.Power	Activation.Played	Condition.Nil	30	0	ComboType.Nil	None
+Palaeontology	Ancient Creatures	Titanoboa	10	78	AbilityType.Power	Activation.Played	Condition.Nil	15	0	ComboType.Nil	None
+Palaeontology	Ancient Creatures	Glyptodon	2	19	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Ancient Creatures	Woolly Mammoth	9	83	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Carnivores	Allosaurus	3	26	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Carnivores	Albertosaurus	8	72	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Carnivores	Velociraptor	7	69	AbilityType.Power	Activation.Played	Condition.Nil	0	-3	ComboType.Nil	None
+Palaeontology	Carnivores	Dilophosaurus	6	51	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Carnivores	Tyrannosaurus Rex	5	54	AbilityType.Power	Activation.Played	Condition.WinningRound	40	0	ComboType.ThisCard	None
+Palaeontology	Carnivores	Cryolophosaurus	1	9	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Carnivores	Saurophaganax	3	35	AbilityType.Power	Activation.Played	Condition.Nil	-10	-10	ComboType.All	None
+Palaeontology	Carnivores	Dimetrodon	8	67	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Carnivores	Gorgosaurus	9	64	AbilityType.Energy	Activation.Played	Condition.Nil	0	-2	ComboType.Nil	None
+Palaeontology	Carnivores	Utahraptor	2	18	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Carnivores	Deinonychus	9	73	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Carnivores	Carnotaurus	4	45	AbilityType.Energy	Activation.Played	Condition.Nil	-1	0	ComboType.Nil	None
+Palaeontology	Carnivores	Spinosaurus	10	76	AbilityType.Power	Activation.InHand	Condition.Nil	3	0	ComboType.Nil	None
+Palaeontology	Carnivores	Tarbosaurus	7	60	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Carnivores	Gigantosaurus	3	34	AbilityType.Power	Activation.Played	Condition.Nil	0	-20	ComboType.Nil	None
+Palaeontology	Carnivores	Baryonyx	8	73	AbilityType.Power	Activation.Played	Condition.MatchingArena	0	-30	ComboType.Nil	None
+Palaeontology	Fearsome Flyers	Ornithocheirus	2	19	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Fearsome Flyers	Anhanguera	4	30	AbilityType.Energy	Activation.Drawn	Condition.Nil	1	0	ComboType.Nil	None
+Palaeontology	Fearsome Flyers	Eudimorphodon	3	29	AbilityType.Power	Activation.Played	Condition.Nil	-15	-15	ComboType.All	None
+Palaeontology	Fearsome Flyers	Pteranodon	4	31	AbilityType.Energy	Activation.Played	Condition.WinTurn	6	0	ComboType.Nil	None
+Palaeontology	Fearsome Flyers	Thalassodromeus	4	39	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Fearsome Flyers	Dorygnathus	5	41	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Fearsome Flyers	Quetzalcoatlus	7	52	AbilityType.Power	Activation.PlayedWith	Condition.Nil	50	0	ComboType.Nil	None
+Palaeontology	Fearsome Flyers	Microraptor	5	47	AbilityType.Power	Activation.Played	Condition.Nil	15	0	ComboType.Nil	None
+Palaeontology	Fearsome Flyers	Dimorphodon	3	27	AbilityType.Power	Activation.Played	Condition.Nil	25	0	ComboType.Nil	None
+Palaeontology	Fearsome Flyers	Tupuxuara	4	35	AbilityType.Power	Activation.PlayedWith	Condition.Nil	30	0	ComboType.Nil	None
+Palaeontology	Fearsome Flyers	Pterodactylus	4	27	AbilityType.Power	Activation.AfterTurn	Condition.Nil	15	0	ComboType.All	None
+Palaeontology	Fearsome Flyers	Rhamphorhynchus	3	10	AbilityType.Power	Activation.AfterTurn	Condition.Nil	10	0	ComboType.Nil	None
+Palaeontology	Herbivores	Saltasaurus	5	42	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Herbivores	Parasaurolophus	7	62	AbilityType.Power	Activation.PlayedWith	Condition.Nil	30	0	ComboType.Nil	None
+Palaeontology	Herbivores	Triceratops	7	63	AbilityType.Power	Activation.Played	Condition.Nil	5	0	ComboType.All	None
+Palaeontology	Herbivores	Alamosaurus	2	16	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Herbivores	Brachiosaurus	6	43	AbilityType.Power	Activation.Played	Condition.Nil	0	-5	ComboType.Nil	None
+Palaeontology	Herbivores	Argentinosaurus	5	47	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Herbivores	Stegosaurus	7	62	AbilityType.Power	Activation.Played	Condition.Nil	10	10	ComboType.All	None
+Palaeontology	Herbivores	Styracosaurus	4	37	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Herbivores	Pachycephalosaurus	9	74	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Herbivores	Protoceratops	7	66	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Herbivores	Ankylosaurus	9	85	AbilityType.Power	Activation.Played	Condition.Nil	0	-10	ComboType.Nil	None
+Palaeontology	Herbivores	Brontosaurus	5	20	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Herbivores	Diabloceratops	3	15	AbilityType.Power	Activation.Played	Condition.LosingRound	30	0	ComboType.Nil	None
+Palaeontology	Herbivores	Diplodocus	7	49	AbilityType.Power	Activation.Played	Condition.LosingRound	98	0	ComboType.Nil	None
+Palaeontology	Herbivores	Therizinosaurus	9	70	AbilityType.Power	Activation.Played	Condition.Nil	0	-30	ComboType.Nil	None
+Palaeontology	Herbivores	Centrosaurus	5	55	AbilityType.Power	Activation.Played	Condition.MatchingArena	40	0	ComboType.Nil	None
+Palaeontology	Monsters of the Deep	Liopleurodon	4	36	AbilityType.Power	Activation.Drawn	Condition.Nil	20	0	ComboType.Nil	None
+Palaeontology	Monsters of the Deep	Basilosaurus	6	54	AbilityType.Power	Activation.Played	Condition.Nil	0	-10	ComboType.Nil	None
+Palaeontology	Monsters of the Deep	Helicoprion	9	86	AbilityType.Power	Activation.Drawn	Condition.Nil	40	0	ComboType.Nil	None
+Palaeontology	Monsters of the Deep	Livyatan Melvillei	7	65	AbilityType.CardCost	Activation.Drawn	Condition.Nil	3	0	ComboType.Nil	None
+Palaeontology	Monsters of the Deep	Kronosaurus	4	39	AbilityType.Power	Activation.Played	Condition.Nil	25	0	ComboType.Nil	None
+Palaeontology	Omnivores	Massospondylus	8	73	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Omnivores	Gallimimus	1	3	AbilityType.Power	Activation.PlayedWith	Condition.Nil	80	0	ComboType.Nil	None
+Palaeontology	Omnivores	Deinocheirus	4	50	AbilityType.Power	Activation.Played	Condition.Nil	-10	0	ComboType.All	None
+Palaeontology	Omnivores	Troodon	3	0	AbilityType.Power	Activation.Played	Condition.Nil	25	0	ComboType.Nil	None
+Palaeontology	Omnivores	Titanosaurus	6	64	AbilityType.Power	Activation.Drawn	Condition.Nil	50	0	ComboType.Nil	None
+Palaeontology	Omnivores	Hypsilophodon	3	24	AbilityType.Power	Activation.Played	Condition.Nil	20	0	ComboType.Nil	None
+Palaeontology	Omnivores	Heterodontosaurus	1	6	AbilityType.Power	Activation.Played	Condition.Nil	12	0	ComboType.Nil	None
+Palaeontology	Omnivores	Gigantoraptor	2	28	AbilityType.Power	Activation.Played	Condition.Nil	30	0	ComboType.Nil	None
+Palaeontology	Omnivores	Pelecanimimus	5	43	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Omnivores	Ornithomimus	5	43	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Omnivores	Caudipteryx	3	26	AbilityType.Power	Activation.PlayedWith	Condition.Nil	25	0	ComboType.Nil	None
+Palaeontology	Omnivores	Yangchuanosaurus	6	52	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Omnivores	Oviraptor	4	40	AbilityType.Power	Activation.PlayedWith	Condition.Nil	50	0	ComboType.Nil	None
+Palaeontology	Omnivores	Citipati	6	39	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Palaeontology	Omnivores	Enteldont	3	27	AbilityType.Power	Activation.PlayedWith	Condition.Nil	35	0	ComboType.Nil	None
+Palaeontology	Omnivores	Amphicyon	5	40	AbilityType.Power	Activation.PlayedWith	Condition.Nil	40	0	ComboType.Nil	None
+Palaeontology	Palaeontology Mythic Cards	Unicorn	8	77	AbilityType.Power	Activation.Drawn	Condition.Nil	77	0	ComboType.ThisCard	None
+Palaeontology	Palaeontology Holiday Specials	Dinosaur Eggs	2	18	AbilityType.Power	Activation.PlayedWith	Condition.Nil	40	0	ComboType.Nil	None
+Palaeontology	Palaeontology Special Fusions	Jurassic Coast	5	53	AbilityType.Power	Activation.Drawn	Condition.Nil	30	0	ComboType.Nil	None
+Science	Awesome Aviation	The Wright Brothers	10	70	AbilityType.Power	Activation.AfterTurn	Condition.Nil	10	0	ComboType.Nil	None
+Science	Awesome Aviation	Spitfire	4	39	AbilityType.Power	Activation.Played	Condition.Nil	20	0	ComboType.Nil	None
+Science	Awesome Aviation	Da Vinci's Aerial Screw	10	74	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Awesome Aviation	Boeing 747	7	47	AbilityType.Power	Activation.Played	Condition.Nil	10	0	ComboType.Nil	None
+Science	Awesome Aviation	The Hindenburg	7	90	AbilityType.Power	Activation.Played	Condition.LoseTurn	10	0	ComboType.Nil	None
+Science	Awesome Aviation	B-2 Spirit	2	16	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Awesome Aviation	Lift	1	8	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Awesome Aviation	Thrust	2	16	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Awesome Aviation	Drag	3	27	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Awesome Aviation	Weight	4	28	AbilityType.Energy	Activation.Drawn	Condition.Nil	1	0	ComboType.Nil	None
+Science	Awesome Aviation	Spirit of St. Louis	5	60	AbilityType.Power	Activation.Played	Condition.Nil	-15	-15	ComboType.All	None
+Science	Awesome Aviation	Mach Speed	7	60	AbilityType.Power	Activation.Played	Condition.MatchingArena	60	0	ComboType.ThisCard	None
+Science	Awesome Aviation	Amelia Earhart	7	65	AbilityType.Power	Activation.Played	Condition.Nil	2	0	ComboType.Nil	None
+Science	Awesome Aviation	Concorde	9	70	AbilityType.Power	Activation.Played	Condition.WinningRound	20	0	ComboType.Nil	None
+Science	Awesome Aviation	Wright Flyer	8	72	AbilityType.Energy	Activation.Played	Condition.FirstTurn	5	0	ComboType.Nil	None
+Science	Climate Consequences	Melting Ice Caps	9	74	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Climate Consequences	Drought	2	18	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Climate Consequences	Forest Fires	3	25	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Climate Consequences	Rising Sea Levels	7	50	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Climate Consequences	Rising Temperature	3	64	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Climate Consequences	Acid Rain	6	43	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Energy	Solar Power	10	70	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Energy	The Hoover Dam	3	21	AbilityType.Power	Activation.Played	Condition.Nil	0	-15	ComboType.Nil	None
+Science	Energy	Offshore Oil Platform	6	46	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Energy	Tidal Energy	6	57	AbilityType.Energy	Activation.Drawn	Condition.Nil	2	0	ComboType.Nil	None
+Science	Energy	Biomass	9	66	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Energy	Coal	4	29	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Energy	Natural Gas	6	51	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Energy	Wind Power	7	21	AbilityType.Energy	Activation.Drawn	Condition.Nil	6	0	ComboType.Nil	None
+Science	Energy	Hydrogen Fuel Cells	8	53	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Energy	Nuclear Power	5	10	AbilityType.Energy	Activation.Played	Condition.Nil	1	0	ComboType.Nil	None
+Science	Energy	Geothermal Energy	4	35	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	4	4	ComboType.Nil	None
+Science	Energy	Waste-to-Energy	7	65	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Energy	Three Gorges Dam	7	57	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	2	0	ComboType.Nil	None
+Science	Energy	Oilsands	5	39	AbilityType.CardCost	Activation.Drawn	Condition.Nil	1	0	ComboType.Nil	None
+Science	Energy	Fusion Power	8	83	AbilityType.Power	Activation.PlayedWith	Condition.Nil	70	0	ComboType.Nil	None
+Science	Energy	Alessandro Volta	3	30	AbilityType.Power	Activation.PlayedWith	Condition.Nil	30	0	ComboType.Nil	None
+Science	Energy	André-Marie Ampère	3	30	AbilityType.Power	Activation.PlayedWith	Condition.Nil	30	0	ComboType.Nil	None
+Science	Energy	James Watt	2	25	AbilityType.Power	Activation.PlayedWith	Condition.Nil	35	0	ComboType.Nil	None
+Science	Energy	Algae	4	24	AbilityType.CardCost	Activation.Drawn	Condition.Nil	1	0	ComboType.Nil	None
+Science	Excellent Elements	Aluminium	1	11	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Excellent Elements	Oxygen	4	30	AbilityType.Power	Activation.Played	Condition.Nil	7	0	ComboType.Nil	None
+Science	Excellent Elements	Zinc	2	18	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Excellent Elements	Chlorine	9	65	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Excellent Elements	Helium	5	36	AbilityType.Power	Activation.Played	Condition.Nil	5	0	ComboType.Nil	None
+Science	Excellent Elements	Sodium	6	34	AbilityType.Steal	Activation.Played	Condition.WinTurn	1	-1	ComboType.Nil	None
+Science	Excellent Elements	Silicon	6	52	AbilityType.Power	Activation.Played	Condition.Nil	15	0	ComboType.Nil	None
+Science	Excellent Elements	Iron	3	40	AbilityType.Power	Activation.PlayedWith	Condition.Nil	30	0	ComboType.Nil	None
+Science	Excellent Elements	Gold	7	70	AbilityType.Power	Activation.Played	Condition.MatchingArena	50	0	ComboType.ThisCard	None
+Science	Excellent Elements	Sulphur	1	9	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Excellent Elements	Titanium	3	30	AbilityType.Power	Activation.Played	Condition.LosingRound	8	0	ComboType.Nil	None
+Science	Forces of Nature	Tornado	6	44	AbilityType.Power	Activation.Drawn	Condition.Nil	15	0	ComboType.Nil	None
+Science	Forces of Nature	Clouds	1	10	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Forces of Nature	Dust Storm	3	24	AbilityType.Power	Activation.Played	Condition.Nil	0	-3	ComboType.Nil	None
+Science	Forces of Nature	Rain	2	18	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Forces of Nature	Thunderstorms	7	30	AbilityType.Energy	Activation.Played	Condition.Nil	1	0	ComboType.Nil	None
+Science	Forces of Nature	Avalanche	7	58	AbilityType.Power	Activation.PlayedWith	Condition.Nil	30	0	ComboType.Nil	None
+Science	Forces of Nature	Rainbow	4	34	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Forces of Nature	Blizzard	1	1	AbilityType.Energy	Activation.Played	Condition.Nil	0	-1	ComboType.Nil	None
+Science	Forces of Nature	Sunshine	6	51	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Forces of Nature	Frost	7	52	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Forces of Nature	Hail	1	9	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Forces of Nature	Fog	10	74	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Forces of Nature	Earthquakes	4	32	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Forces of Nature	Tsunami	8	65	AbilityType.Energy	Activation.PlayedWith	Condition.Nil	25	0	ComboType.Nil	None
+Science	Forces of Nature	Aurora Borealis	3	33	AbilityType.Power	Activation.AfterTurn	Condition.Nil	5	0	ComboType.Nil	None
+Science	Ingenious Inventions	The Wheel	4	8	AbilityType.Power	Activation.Drawn	Condition.Nil	10	0	ComboType.All	None
+Science	Ingenious Inventions	Optical Lenses	5	46	AbilityType.Power	Activation.AfterTurn	Condition.Nil	15	0	ComboType.Nil	None
+Science	Ingenious Inventions	Printing Press	3	34	AbilityType.Power	Activation.Drawn	Condition.Nil	30	0	ComboType.Nil	None
+Science	Ingenious Inventions	Paper	6	0	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Marvellous Medicine	X-Rays	9	73	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Marvellous Medicine	Penicillin	4	36	AbilityType.Power	Activation.Played	Condition.Nil	30	0	ComboType.Nil	None
+Science	Marvellous Medicine	Vaccination	6	52	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Marvellous Medicine	Organ Transplantation	3	25	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Marvellous Medicine	Germ Theory	3	25	AbilityType.Power	Activation.Drawn	Condition.Nil	15	0	ComboType.All	None
+Science	Marvellous Medicine	Anaesthesia	4	65	AbilityType.CardCost	Activation.Played	Condition.LoseTurn	2	0	ComboType.Nil	None
+Science	Marvellous Medicine	Defibrillator	6	49	AbilityType.Energy	Activation.AfterTurn	Condition.LosingRound	3	0	ComboType.Nil	None
+Science	Marvellous Medicine	MRI Scanner	7	42	AbilityType.CardCost	Activation.Drawn	Condition.Nil	2	0	ComboType.Nil	None
+Science	Mega Math	Pi	3	14	AbilityType.Power	Activation.Played	Condition.Nil	20	0	ComboType.ThisCard	None
+Science	Mega Math	Playing Cards	1	1	AbilityType.Power	Activation.Played	Condition.LosingRound	10	0	ComboType.All	None
+Science	Mega Math	Abacus	5	42	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Mega Math	Zero	0	0	AbilityType.Power	Activation.Played	Condition.Nil	0	0	ComboType.Nil	None
+Science	Mega Math	Fibonacci Spiral	3	33	AbilityType.Power	Activation.Played	Condition.Nil	-10	-10	ComboType.All	None
+Science	Mega Math	Seven Bridges of Königsberg	7	57	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Mega Math	Algebra	4	26	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Mega Math	Fermat's Last Theorem	4	35	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Mega Math	Pythagoras' Theorem	4	34	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Mega Math	Trigonometry	3	27	AbilityType.Power	Activation.PlayedWith	Condition.Nil	20	0	ComboType.Nil	None
+Science	Mega Math	Kaprekar's Constant	8	53	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Mega Math	The Monty Hall Problem	7	50	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Mega Math	Archimedes	5	42	AbilityType.Power	Activation.Drawn	Condition.Nil	42	0	ComboType.Nil	None
+Science	Mega Math	Leonhard Euler	5	52	AbilityType.Energy	Activation.AfterTurn	Condition.LosingRound	5	0	ComboType.Nil	None
+Science	Mega Math	Calculus	1	19	AbilityType.Power	Activation.AfterTurn	Condition.Nil	5	0	ComboType.Nil	None
+Science	Philosophers	Aristotle	3	0	AbilityType.Power	Activation.Played	Condition.TyingRound	30	0	ComboType.Nil	None
+Science	Philosophers	Plato	6	27	AbilityType.Power	Activation.PlayedWith	Condition.Nil	40	0	ComboType.Nil	None
+Science	Philosophers	Confucius	5	36	AbilityType.Power	Activation.AfterTurn	Condition.Nil	20	0	ComboType.Nil	None
+Science	Philosophers	Immanuel Kant	3	10	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Philosophers	Friedrich Nietzsche	5	30	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	3	0	ComboType.Nil	None
+Science	Pioneers of Science	Ada Lovelace	2	16	AbilityType.Power	Activation.Played	Condition.Nil	0	-10	ComboType.Nil	None
+Science	Pioneers of Science	Michael Faraday	3	30	AbilityType.Power	Activation.PlayedWith	Condition.Nil	50	0	ComboType.Nil	None
+Science	Pioneers of Science	Louis Pasteur	6	48	AbilityType.Energy	Activation.Played	Condition.WinTurn	2	0	ComboType.Nil	None
+Science	Pioneers of Science	Galileo Galilei	3	26	AbilityType.Power	Activation.Played	Condition.Nil	15	0	ComboType.Nil	None
+Science	Pioneers of Science	Nicolaus Copernicus	5	45	AbilityType.Power	Activation.Played	Condition.Nil	15	0	ComboType.Nil	None
+Science	Pioneers of Science	Marie Curie	5	50	AbilityType.CardCost	Activation.Drawn	Condition.Nil	5	0	ComboType.Nil	None
+Science	Pioneers of Science	Sir Isaac Newton	6	53	AbilityType.Power	Activation.PlayedWith	Condition.Nil	30	0	ComboType.Nil	None
+Science	Pioneers of Science	Alan Turing	5	47	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Pioneers of Science	Thomas Edison	5	50	AbilityType.Energy	Activation.Drawn	Condition.Nil	25	0	ComboType.Nil	None
+Science	Pioneers of Science	Nikola Tesla	6	60	AbilityType.CardCost	Activation.Drawn	Condition.Nil	3	0	ComboType.Nil	None
+Science	Pioneers of Science	Charles Darwin	8	70	AbilityType.Power	Activation.Played	Condition.Nil	-30	-30	ComboType.All	None
+Science	Pioneers of Science	Niels Bohr	4	32	AbilityType.Power	Activation.Played	Condition.Nil	25	0	ComboType.Nil	None
+Science	Pioneers of Science	Alexander Graham Bell	2	18	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Pioneers of Science	Albert Einstein	5	35	AbilityType.Power	Activation.Drawn	Condition.Nil	35	0	ComboType.Nil	None
+Science	Science Mythic Cards	The God Particle	3	38	AbilityType.Power	Activation.Played	Condition.Nil	60	0	ComboType.Nil	None
+Science	Science Special Fusions	Red Diamond	5	35	AbilityType.Power	Activation.AfterTurn	Condition.LosingRound	100	0	ComboType.Nil	None
+Science	Super Structures	Sydney Harbour Bridge	9	66	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Super Structures	Chrysler Building	8	57	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Super Structures	Lotus Temple	8	62	AbilityType.Power	Activation.Played	Condition.Nil	25	25	ComboType.All	None
+Science	Super Structures	Fallingwater	4	33	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Super Structures	Gateway Arch	1	16	AbilityType.Power	Activation.Played	Condition.Nil	0	5	ComboType.Nil	None
+Science	Super Structures	Torre Glòries	8	56	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Super Structures	The Leaning Tower of Pisa	9	66	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Super Structures	Louvre Pyramid	3	25	AbilityType.Power	Activation.PlayedWith	Condition.Nil	20	0	ComboType.Nil	None
+Science	Super Structures	Empire State Building	1	8	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Super Structures	Burj Al Arab	2	18	AbilityType.Power	Activation.PlayedWith	Condition.Nil	15	0	ComboType.Nil	None
+Science	Super Structures	Dancing House	7	48	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Super Structures	20 Fenchurch	9	67	AbilityType.Power	Activation.PlayedWith	Condition.Nil	20	0	ComboType.Nil	None
+Science	Super Structures	Burj Khalifa	6	100	AbilityType.Energy	Activation.AfterTurn	Condition.Nil	0	2	ComboType.Nil	None
+Science	Super Structures	The Shard	4	25	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
+Science	Super Structures	Golden Gate Bridge	8	50	AbilityType.Nil	Activation.Nil	Condition.Nil	0	0	ComboType.Nil	
