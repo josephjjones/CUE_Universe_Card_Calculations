@@ -54,6 +54,7 @@ class CardDescriptionParser:
                         ABILITY_TYPE: AbilityType.Nil,
                         ACTIVATION: Activation.Nil,
                         CONDITION: Condition.Nil,
+                        AWARD_TYPE: AwardType.Nil,
                         YOUR_BONUS: 0,
                         THEIR_BONUS: 0,
                         COMBO_TYPE: ComboType.Nil,
@@ -64,6 +65,16 @@ class CardDescriptionParser:
                     continue
                 self.calculateRarity(cardName, card[rarityIndex], card[typeIndex])
                 self.parseAbility(self.cards[cardName])
+                if category not in self.categoryLists:
+                    self.categoryLists[category] = []
+                if subcategory not in self.subcategoryLists:
+                    self.subcategoryLists[subcategory] = []
+                self.categoryLists[category].append(cardName)
+                self.subcategoryLists[subcategory].append(cardName)
+
+            for cardName in self.cards:
+                card = self.cards[cardName]
+                card[COMBO_TYPE], card[COMBO_VALUE] = ComboType.parse(card, self.categoryLists.keys(), self.subcategoryLists.keys(), self.cards.keys())
         return
 
     def calculateRarity(self, cardName, rarity, cardType):
@@ -93,8 +104,8 @@ class CardDescriptionParser:
         searchIndex = ability.find(" - ")
         if(searchIndex != -1): ability = ability[searchIndex+3:]
         else: print(card[CARD_NAME], " failed to remove ability name (NonFatal)", file=sys.stderr)
-        ability = ability.lower()
         card[ABILITY] = ability
+        ability = ability.lower()
 
         # Parse Meta Ability Headers
         #TODO: add error checking for when one of these return Nil
@@ -115,12 +126,10 @@ class CardDescriptionParser:
             return
 
         self.parseBonuses(card)
-        card[COMBO_TYPE], card[COMBO_VALUE] = ComboType.parse(card, self.categoryLists.keys(), self.subcategoryLists.keys(), self.cards.keys())
-
         return
 
     def parseBonuses(self, card):
-        ability = card[ABILITY]
+        ability = card[ABILITY].lower()
 
         bonus = None
         for word in ability.split():
@@ -132,9 +141,9 @@ class CardDescriptionParser:
         
         if bonus is None:
             if ability.find("double") != -1:
-                bonus = card[POWER] * 2
+                bonus = card[POWER]
             elif ability.find("triple") != -1:
-                bonus = card[POWER] * 3
+                bonus = card[POWER] * 2
             else:
                 print(card[CARD_NAME], "failed to parse bonus value", file=sys.stderr)
                 return
@@ -190,15 +199,13 @@ class CardDescriptionParser:
             print(
                 card[CATEGORY], card[SUBCATEGORY], card[CARD_NAME],
                 card[ENERGY_COST], card[POWER], card[ABILITY_TYPE],
-                card[ACTIVATION], card[CONDITION], card[YOUR_BONUS],
-                card[THEIR_BONUS], card[COMBO_TYPE], card[COMBO_VALUE], sep='\t'
+                card[ACTIVATION], card[CONDITION], card[AWARD_TYPE], card[YOUR_BONUS],
+                card[THEIR_BONUS], card[COMBO_TYPE], card[COMBO_VALUE], card[ABILITY], sep='\t'
             )
         return
 
 #TODO Special Cases
-# Mary Celeste (everything)
-# Jackson's Chameleon, Diabloceratops, Diplodocus (bonus)
-# Paper (everything)
+# Specific cards that give a bonus even when in the deck
 
 
 #TODO Fixes to cards once I have edit access
@@ -212,4 +219,10 @@ class CardDescriptionParser:
 #  Leopard
 
 # add power
-# Diamond Tetra
+#  Diamond Tetra
+
+# add description
+#  Golden Gate Bridge
+
+# In Ancient Greece Apollo 11 should be Apollo
+# Oceans category should be Oceans and Seas

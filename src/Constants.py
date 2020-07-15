@@ -1,3 +1,4 @@
+import re
 from enum import Enum, auto
 from collections import namedtuple
 
@@ -35,8 +36,8 @@ class AbilityType(Enum):
         phrases = [
             Phrase("cost", AbilityType.CardCost),
             Phrase("steal", AbilityType.Steal),
-            Phrase("energy", AbilityType.Energy),
             Phrase("power", AbilityType.Power),
+            Phrase("energy", AbilityType.Energy),
         ]
 
         for phrase in phrases:
@@ -102,9 +103,11 @@ class Condition(Enum):
             Phrase("lose a turn", Condition.LoseTurn),
             Phrase("lose the turn", Condition.LoseTurn),
             Phrase("lose this turn", Condition.LoseTurn),
+            Phrase("lost this turn", Condition.LoseTurn),
             Phrase("win a turn", Condition.WinTurn),
             Phrase("win the turn", Condition.WinTurn),
             Phrase("win this turn", Condition.WinTurn),
+            Phrase("won this turn", Condition.WinTurn),
 
             Phrase("winning the round", Condition.WinningRound),
             Phrase("winning this round", Condition.WinningRound),
@@ -141,7 +144,10 @@ class AwardType(Enum):
         if (ability.find("/turn") != -1 or ability.find("per turn") != -1):
             phrases = [
                 Phrase("next two turns", AwardType.NextTwoTurns),
-                Phrase("round", AwardType.PerTurnRound),
+                Phrase("end of the round", AwardType.PerTurnRound),
+                Phrase("remainder of this round", AwardType.PerTurnRound),
+                Phrase("rest of this round", AwardType.PerTurnRound),
+                Phrase("rest of the round", AwardType.PerTurnRound),
                 Phrase("game", AwardType.PerTurnGame),
             ]
         else:
@@ -149,9 +155,13 @@ class AwardType(Enum):
                 Phrase("this turn and next turn", AwardType.ThisAndNextTurn),
                 Phrase("this turn", AwardType.ThisTurn),
                 Phrase("next turn", AwardType.NextTurn),
+                Phrase("turn after", AwardType.NextTurn),
                 Phrase("until played", AwardType.UntilPlayed),
                 Phrase("game", AwardType.Game),
-                Phrase("round", AwardType.Round),
+                Phrase("end of the round", AwardType.Round),
+                Phrase("remainder of this round", AwardType.Round),
+                Phrase("rest of this round", AwardType.Round),
+                Phrase("rest of the round", AwardType.Round),
                 Phrase(" ", AwardType.ThisTurn), # maybe not best to default to this but shrug
             ]
 
@@ -177,15 +187,17 @@ class ComboType(Enum):
             return ComboType.Nil, None
         
         ability = card[ABILITY]
-        for card in cards:
-            if (ability.find(card) != -1):
-                return ComboType.SpecificCard, card
-        for subcategory in subcategories:
-            if (ability.find(subcategory) != -1):
+        match = re.search(buildGroupRegex(cards), ability)
+        if match:
+            return ComboType.SpecificCard, match.group(0)
+        match = re.search(buildGroupRegex(subcategories), ability)
+        if match:
+            subcategory = match.group(0)
+            if subcategory != 'Energy' or ability.find('Energy cards') != -1:
                 return ComboType.Subcategory, subcategory
-        for category in categories:
-            if (ability.find(category) != -1):
-                return ComboType.Category, category
+        match = re.search(buildGroupRegex(categories), ability)
+        if match:
+            return ComboType.Category, match.group(0)
         phrases = [
             Phrase("this card has", ComboType.ThisCard),
             Phrase("all", ComboType.All),
@@ -196,6 +208,9 @@ class ComboType(Enum):
                 return phrase.enum, None
 
         return ComboType.Nil, None
+
+def buildGroupRegex(words):
+    return re.compile("\\b("+'|'.join(words)+")\\b")
 
 
 class Rarity(Enum):

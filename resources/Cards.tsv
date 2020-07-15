@@ -1,6 +1,6 @@
 I have been made aware that some of the information is not up-to-date. When this spreadsheet was in development, multiple major balancing updates came around and it was difficult to keep track of them. The affected cards will be updated soon. Thank you for understanding.												
 Album	Collection	Name	Rarity	Energy Cost	Power	Power per Energy	Type	Ability	Card Model Number	CUE Card Release Schedule		
-Oceans	Cephalopods	Mimic Octopus	Legendary	8	88	11.0	Limited Card	Sucker Punch - When played, if you lose the turn, steal 4 Energy from your Opponent.		Day	Release	
+Oceans and Seas	Cephalopods	Mimic Octopus	Legendary	8	88	11.0	Limited Card	Sucker Punch - When played, if you lose the turn, steal 4 Energy from your Opponent.		Day	Release	
 	Crustaceans	Red-Spotted Box Crab	Common	3	28	9.3	Limited Card	In a Pinch - When drawn, if you are losing the round, this card costs 2 less Energy this turn.		Monday	Cards for next week's League	
 		Emperor Shrimp	Rare	4	64	16.0	Limited Card	Scuttle By - When returned to your deck, your Opponent gains 1 Energy.		Tuesday	New Limited card	
 		Ecuadorian Hermit Crab	Common	7	62	8.9	Limited Card			Wednesday	New cards from a current Limited Collection	
@@ -25,7 +25,7 @@ Oceans	Cephalopods	Mimic Octopus	Legendary	8	88	11.0	Limited Card	Sucker Punch -
 		Lion Fish	Common	4	33	8.3						
 		Scorpion Fish	Rare	7	60	8.6		Spiked! - When played, your venom drains 1 Energy per turn from your Opponent until the end of this Round.				
 		Sailfish	Common	5	48	9.6	Fusion Ingredient					
-		Clown Fish	Epic	4	32	8.0		Finding Marlin - If you're holding Marlin when you draw this, give it +25 Power.				
+		Clown Fish	Epic	4	32	8.0		Finding Marlin - If you're holding Blue Marlin when you draw this, give it +25 Power for the rest of the Game.				
 		Yellow Tang	Common	3	28	9.3						
 		Firefish Goby	Rare	4	28	7.0		Friendly Fish - Fire Goby provides other Fish cards with +10 Power when played.				
 		Anthias	Common	7	59	8.4						
@@ -432,7 +432,7 @@ History	Ancient Egypt	The Pyramids	Legendary	3	33	11.0
 		Olive Trees	Common	7	57	8.1						
 		Ionic Column	Common	3	28	9.3						
 		Athena	Rare	2	14	7.0	Fusion Ingredient	 Wisdom in War - When played, if you are losing the round, this card has +10 Power. 				
-		Apollo 11	Common	7	67	9.6						
+		Apollo	Common	7	67	9.6						
 		Ancient Olympia	Common	2	18	9.0		 Olympic Spirit - When played, if you win the turn, receive +2 Energy. 				
 		Sanctuary of Delphi	Common	5	46	9.2						
 		Socrates	Common	4	40	10.0		 Pass Wisdom - When played with Plato, give it +20 Power. 				
@@ -746,5 +746,5 @@ Science	Awesome Aviation	The Wright Brothers	Rare	10	70	7.0		 Spirit of Collabor
 		20 Fenchurch	Common	9	67	7.4		 London Calling - When played with The Shard, give that card +20 Power.		Epic	95	150
 		Burj Khalifa	Fusion	6	100	16.7		 Share the Wealth - When returned to your deck, your Opponent has +2 Energy next turn.		Legendary	67	300
 		The Shard	Common	4	25	6.3				Fusion	43	1000
-		Golden Gate Bridge	Epic	8	50	6.3				Mythic	8	1000
+		Golden Gate Bridge	Epic	8	50	6.3		Something - If losing the round when played get +1 Energy/Turn for the rest of the Game		Mythic	8	1000
 Turn back, traveller! The Universe is infinite! The CUE Database is not.												
