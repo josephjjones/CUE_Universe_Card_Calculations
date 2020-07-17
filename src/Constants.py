@@ -14,7 +14,7 @@ POWER="Power"
 CARD_TYPE="Type" #limited card/fusion ingredient
 ABILITY="Ability"
 
-# Meta Headers: Values that are calculated directly from the ABILITY field
+# Parsed Headers: Values that are calculated directly from the ABILITY field
 ABILITY_TYPE="Ability Type"
 ACTIVATION="Activation Time"
 CONDITION="Activation Condition"
@@ -23,6 +23,17 @@ YOUR_BONUS="Your Bonus"
 THEIR_BONUS="Their Bonus"
 COMBO_TYPE="Combo Type"
 COMBO_VALUE="Combo Value"
+
+# Meta Headers: Values calculated based on the parsed headers
+BONUS_POWER="Bonus Power"
+BONUS_ENERGY="Bonus Energy"
+THEIR_BONUS_POWER="Their Bonus Power"
+THEIR_BONUS_ENERGY="Their Bonus Energy"
+PREDICTED_ENERGY="Predicted Energy"
+PREDICTED_POWER="Predicted Power"
+BASE_EFFICIENCY="Base Efficiency"
+PREDICTED_EFFICIENCY="Predicted Efficiency"
+DIFFICULTY="Difficulty"
 
 class AbilityType(Enum):
     Nil = 0

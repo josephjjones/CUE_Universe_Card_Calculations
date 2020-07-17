@@ -37,7 +37,7 @@ Oceans and Seas	Cephalopods	Mimic Octopus	Legendary	8	88	11.0	Limited Card	Sucke
 	Ocean Mammals	Sea Otter	Common	7	58	8.3						
 		Polar Bear	Epic	7	60	8.6		Bite Force - If winning the round, the largest land carnivore gives +10 Power when played.				
 		Elephant Seal	Common	8	71	8.9						
-		Bottlenose Dolphin	Rare	7	52	7.4	Fusion Ingredient	Kings of Communication - Advance the cause of oceans mammals by reducing the Energy cost of others in your hand by 2 (when drawn).				
+		Bottlenose Dolphin	Rare	7	52	7.4	Fusion Ingredient	Kings of Communication - Advance the cause of Ocean Mammals by reducing the Energy cost of others in your hand by 2 (when drawn).				
 		Beluga Whale	Common	2	17	8.5		Walesong - With sounds travelling 100 miles, whalesong lifts all Oceans and Seas cards with +10 Power when played.				
 		Leopard Seal	Common	5	36	7.2						
 		Sperm Whale	Rare	1	5	5.0	Fusion Ingredient	Back from the Brink - If you are losing the round when this is returns to your deck, gain +4 Energy.				
@@ -48,7 +48,7 @@ Oceans and Seas	Cephalopods	Mimic Octopus	Legendary	8	88	11.0	Limited Card	Sucke
 		Sea Lion	Common	10	84	8.4						
 		Atlantic Walrus	Common	3	24	8.0						
 		Dugong	Common	6	54	9.0		Mermaid's Lure - When drawn, Ancient Greece cards in play require 2 less energy.				
-		Humpback Whale	Fusion	4	60	15.0		Mighty Flipper - With flippers this large, swimming is easy. Get 3 Energy back when played.				
+		Humpback Whale	Fusion	7	60	15.0		Mighty Flipper - With flippers this large, swimming is easy. Get 3 Energy back when played.				
 		Vaquita	Rare	5	48	9.6		Act with Porpoise - When played on the first turn of a Round, this card had +20 Power.				
 		Amazon River Dolphin	Rare	2	18	9.0		Think Pink! - When played with Flamingos, give that card +50 Power.				
 		Spinner Dolphin	Epic	8	59	7.4	Limited Card	Spear from the Sea - When this card returns to your deck, steal 3 Energy from your opponent.				
@@ -404,7 +404,7 @@ Life on Land	Amphibians	European Tree Frog	Common	3	28	9.3
 		Wasp	Common	2	19	9.5	Limited Card					
 		Brown Recluse	Common	4	38	9.5	Limited Card	Necrotic Venom - When played, if you lose the turn, steal 2 Energy from your opponent. 				
 		Deathstalker	Common	5	35	7.0	Limited Card	The Scorpion King - When drawn, your Ancient Egypt cards cost 2 less Energy until played. 				
-		Blue Poison Dart Frog	Legendary	3	30	10.0	Limited Card	Why So Blue - When played, your Ocean and Seas cards have +30 Power this turn.        				
+		Blue Poison Dart Frog	Legendary	3	30	10.0	Limited Card	Why So Blue - When played, your Oceans and Seas cards have +30 Power this turn.        				
 		Hooded Pitohui	Common	3	60	20.0	Limited Card	Under the Hood - When played, your Life on Landcards have -30 power this turn. 				
 History	Ancient Egypt	The Pyramids	Legendary	3	33	11.0						
 		The Sphinx	Epic	3	26	8.7		 Riddle of the Sphinx - When played, all Ancient Egypt cards have +15 Power this turn.        				

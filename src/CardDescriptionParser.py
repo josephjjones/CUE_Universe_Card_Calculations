@@ -1,6 +1,7 @@
 import csv
 import sys
 from src.Constants import *
+from src.MetaCalculator import calculateMeta
 
 class CardDescriptionParser:
     cards = {}
@@ -75,6 +76,9 @@ class CardDescriptionParser:
             for cardName in self.cards:
                 card = self.cards[cardName]
                 card[COMBO_TYPE], card[COMBO_VALUE] = ComboType.parse(card, self.categoryLists.keys(), self.subcategoryLists.keys(), self.cards.keys())
+        
+        calculateMeta(self.cards)
+        # calculateCombos
         return
 
     def calculateRarity(self, cardName, rarity, cardType):
@@ -152,7 +156,11 @@ class CardDescriptionParser:
             card[YOUR_BONUS] = bonus
             card[THEIR_BONUS] = -bonus
             return
-
+        elif card[ABILITY_TYPE] == AbilityType.CardCost:
+            if ability.find(" less") != -1:
+                bonus = -bonus
+            if ability.find(" reduc") != -1:
+                bonus = -bonus
         bonuses = namedtuple("bonuses", ["phrase","yours","theirs"])
         phrases = [
             bonuses("you and your opponent", bonus, bonus),
@@ -164,7 +172,7 @@ class CardDescriptionParser:
         ]
 
         for phrase in phrases:
-            if (ability.find(phrase.phrase) != -1):
+            if ability.find(phrase.phrase) != -1:
                 card[YOUR_BONUS] = phrase.yours
                 card[THEIR_BONUS] = phrase.theirs
                 return
@@ -195,17 +203,64 @@ class CardDescriptionParser:
         return False
 
     def printCards(self):
+        print(
+            CATEGORY,
+            SUBCATEGORY,
+            CARD_NAME,
+            ENERGY_COST,
+            POWER,
+            ABILITY_TYPE,
+            ACTIVATION,
+            CONDITION,
+            AWARD_TYPE,
+            YOUR_BONUS,
+            THEIR_BONUS,
+            COMBO_TYPE,
+            COMBO_VALUE,
+            ABILITY,
+            
+            BONUS_POWER,
+            BONUS_ENERGY,
+            THEIR_BONUS_POWER,
+            THEIR_BONUS_ENERGY,
+            PREDICTED_ENERGY,
+            PREDICTED_POWER,
+            BASE_EFFICIENCY,
+            PREDICTED_EFFICIENCY,
+            DIFFICULTY, sep='\t'
+        )
         for card in self.cards.values():
             print(
-                card[CATEGORY], card[SUBCATEGORY], card[CARD_NAME],
-                card[ENERGY_COST], card[POWER], card[ABILITY_TYPE],
-                card[ACTIVATION], card[CONDITION], card[AWARD_TYPE], card[YOUR_BONUS],
-                card[THEIR_BONUS], card[COMBO_TYPE], card[COMBO_VALUE], card[ABILITY], sep='\t'
+                card[CATEGORY],
+                card[SUBCATEGORY],
+                card[CARD_NAME],
+                card[ENERGY_COST],
+                card[POWER],
+                card[ABILITY_TYPE],
+                card[ACTIVATION],
+                card[CONDITION],
+                card[AWARD_TYPE],
+                card[YOUR_BONUS],
+                card[THEIR_BONUS],
+                card[COMBO_TYPE],
+                card[COMBO_VALUE],
+                card[ABILITY],
+                
+                card[BONUS_POWER],
+                card[BONUS_ENERGY],
+                card[THEIR_BONUS_POWER],
+                card[THEIR_BONUS_ENERGY],
+                card[PREDICTED_ENERGY],
+                card[PREDICTED_POWER],
+                card[BASE_EFFICIENCY],
+                card[PREDICTED_EFFICIENCY],
+                card[DIFFICULTY], sep='\t'
             )
         return
 
 #TODO Special Cases
 # Specific cards that give a bonus even when in the deck
+# Cards that give bonuses to Apollo 11 or other cards that have a number in their name
 
 
 #TODO Fixes to cards once I have edit access
@@ -226,3 +281,12 @@ class CardDescriptionParser:
 
 # In Ancient Greece Apollo 11 should be Apollo
 # Oceans category should be Oceans and Seas
+
+# Category and Subcategory corrections
+#  Bottlenose Dolphin - Ability capitalisation and spelling
+#  Blue Poison Dart Frog - correct spelling
+
+# Many power and energy fixes required
+
+#TODO Add Tests for edge cases/problem types
+#TODO Vet spelling and correct bad upstream data
