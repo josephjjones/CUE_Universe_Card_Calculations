@@ -290,3 +290,6 @@ class CardDescriptionParser:
 
 #TODO Add Tests for edge cases/problem types
 #TODO Vet spelling and correct bad upstream data
+#TODO Parameterize all bonus calculations (no magic numbers)
+#TODO Fix Predicted Power Calculations that are negative for both players
+#TODO Update energy efficiency calculations to net skyrocket through the roof so fast 

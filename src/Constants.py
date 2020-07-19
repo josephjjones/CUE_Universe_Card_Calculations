@@ -209,10 +209,12 @@ class ComboType(Enum):
         match = re.search(buildGroupRegex(categories), ability)
         if match:
             return ComboType.Category, match.group(0)
+        ability = ability.lower()
         phrases = [
             Phrase("this card has", ComboType.ThisCard),
             Phrase("all", ComboType.All),
             Phrase("your cards", ComboType.All),
+            Phrase("opponent's cards", ComboType.All),
         ]
         for phrase in phrases:
             if (ability.find(phrase.phrase) != -1):
